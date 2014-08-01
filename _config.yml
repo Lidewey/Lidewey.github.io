@@ -1,16 +1,24 @@
-markdown: rdiscount
-pygments: true
-permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
-title : Carlos Becker
-production_url : http://carlosbecker.com
-description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Carlos Alexandro Becker."
-disqus_shortname: caarlos0blog
-analytics: UA-32899481-1
-gauges: 50f2b533613f5d7c8000000c
-author :
-  name : Carlos Alexandro Becker
-  github : caarlos0
-  twitter : caarlos0
-  email: caarlos0@gmail.com
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Lanyon
+tagline:          'A Jekyll theme'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://lanyon.getpoole.com
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
