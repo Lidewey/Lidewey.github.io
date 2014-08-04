@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            ThreeME
+title:            Three-ME
 tagline:          'OFCE'
 description:      'Menu'
 url:              http://lanyon.getpoole.com
@@ -14,7 +14,7 @@ baseurl:          '/'
 paginate:         5
 
 author:
-  name:           'Mark Otto'
+  name:           'Lidewey van der Wal'
   url:            https://twitter.com/mdo
 
 # Custom vars
