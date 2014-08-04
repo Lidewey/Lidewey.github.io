@@ -10,7 +10,7 @@ title:            ThreeME
 tagline:          'OFCE'
 description:      'Menu'
 url:              http://lanyon.getpoole.com
-baseurl:          'lidewey.github.io'
+baseurl:          '/'
 paginate:         5
 
 author:
