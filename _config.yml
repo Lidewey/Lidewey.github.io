@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Lanyon
+title:            ThreeME
 tagline:          'A Jekyll theme'
-description:      'Nav bar'
+description:      'Menu'
 url:              http://lanyon.getpoole.com
 baseurl:          '/'
 paginate:         5
