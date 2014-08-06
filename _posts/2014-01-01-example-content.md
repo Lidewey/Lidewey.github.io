@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: Some handy facts
 ---
 
 
