@@ -32,16 +32,6 @@
       {% endif %}
     {% endfor %}
 
-
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if page.title != null %}
-        {% if page.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == page.url %} active{% endif %}" href="{{ page.url }}"
-          >{{ page.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
 <!-- Part nav bar not needed 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
