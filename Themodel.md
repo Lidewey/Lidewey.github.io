@@ -19,6 +19,9 @@ is mainly determined by exogenous factors such as the demography but also by end
 factors: because of discouraged worker effects, the unemployment rate may affect the labor 
 participation rate and thus the active population.</p>
 
+<img src="/threeme.jpg" alt="Three-ME" width="500" height="550">
+Figure 1.
+
 <p>The unemployment rate is an important determinant of the wages dynamic which is 
 defined by a Phillips curve. The inflationary property of the model is determined by the 
 feedback loop between wages, production cost and prices. Prices are assumed to adjust slowly 
@@ -93,6 +96,3 @@ same rate as the technical progress. All prices grow at the rate of inflation wh
 the exogenous rate of inflation in the rest of the world. The endogenous dynamic of the model 
 is determined by capital accumulation of households and firms, the specification of the 
 anticipation and of the adjustment dynamic.</p>
-
-<img src="/threeme.jpg" alt="Three-ME" width="500" height="550">
-Figure 1.
