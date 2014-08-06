@@ -3,9 +3,6 @@ layout: page
 title: Documentation and support
 ---
 
-
-<h2>Documentation and support</h2>
-
 In cooperation with:
 
 <img src="http://www.senat.fr/rap/r02-343/r02-34322.gif" alt="OFCE" width="100" height="75">
