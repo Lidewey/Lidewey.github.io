@@ -1,10 +1,7 @@
 ---
-layout: default
+layout: page
 title: The model
 ---
-
-
-<h2>The model</h2>
 
 
 <p>
