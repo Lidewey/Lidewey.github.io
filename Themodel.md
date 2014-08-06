@@ -5,7 +5,7 @@ title: The model
 
 
 <p>
-	The overall structure of the model is schematized in Figure 1. In the short term, Three-ME has the main characteristics of a standard neo-Keynesian macroeconomic model of 
+The overall structure of the model is schematized in Figure 1. In the short term, Three-ME has the main characteristics of a standard neo-Keynesian macroeconomic model of 
 demand in an open economy. An important one is that demand determines supply. The 
 demand is composed of (intermediate and final) consumption, investment and export whereas 
 the supply comes from imports and the domestic production. As a feed-back with eventually 
@@ -94,4 +94,4 @@ the exogenous rate of inflation in the rest of the world. The endogenous dynamic
 is determined by capital accumulation of households and firms, the specification of the 
 anticipation and of the adjustment dynamic.</p>
 
-<img src="/_images/threeme.JPEG" alt="Three-ME" width="400" height="450">
+<img src="/threeme.jpg" alt="Three-ME" width="400" height="450">
