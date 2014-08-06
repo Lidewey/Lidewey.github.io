@@ -25,7 +25,7 @@ p { text-align: left }
 <img border="0" src="/images/ladygaga.jpg" alt="Lady Gaga" width="130" height="90">
 <h3>OneRepublic</h3>
 24 Oct - 7:30 PMZénith de Paris<br>
-<img border="0" src="/images/onerep.jpg" alt="One Republic" width="150" height="90"><br><br><br><br><br><br><br><br><br>
+<img border="0" src="/images/onerep.jpg" alt="One Republic" width="150" height="90">
 <h3>Elton John</h3>
 19 Nov - 20:00 Bercy de Paris<br>
 <img border="0" src="/images/elton.jpg" alt="Elton John" width="130" height="120">
@@ -37,7 +37,7 @@ p { text-align: left }
 <h3>The divine comedy</h3>
 11 Feb 2015 Philharmonie de Paris
 <br>
-<img border="0" src="/images/comedy.jpg" alt="Comedy" width="130" height="130"><br><br><br><br>
+<img border="0" src="/images/comedy.jpg" alt="Comedy" width="130" height="130">
 <h3>La Légende des chevaliers</h3>
 29 Mar - 2 Nov
 La Légende des chevaliers, spectacle équestre<br>
