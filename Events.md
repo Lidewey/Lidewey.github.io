@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Events2
+title: Events
 ---
 
 <div style="float:left; width:55%;">
