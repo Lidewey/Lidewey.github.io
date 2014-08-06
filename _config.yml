@@ -10,7 +10,7 @@ title:            Three-ME
 tagline:          'OFCE'
 description:      'Menu'
 url:              http://lanyon.getpoole.com
-baseurl:          '/'
+baseurl:          '/News'
 paginate:         5
 
 author:
