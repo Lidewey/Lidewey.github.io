@@ -8,7 +8,6 @@ title: Documentation and support
 
 <div id="menu" style="width:823px;float:left;">
 <body>
-<blockquote>
 <style>
 .newspaper {
     -webkit-columns: 150px 3; 
@@ -53,7 +52,6 @@ Stade de France<br>
 <img border="0" src="/images/soccer.jpg" alt="Soccer" width="190" height="90">
 </p>
 </div>
-</blockquote> 
 </body>
 </div>
 </section>
