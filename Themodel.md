@@ -19,7 +19,7 @@ is mainly determined by exogenous factors such as the demography but also by end
 factors: because of discouraged worker effects, the unemployment rate may affect the labor 
 participation rate and thus the active population.</p>
 
-<img src="_images/threeme.jpg" alt="Three-ME" width="650" height="700">
+<img src="/threeme.jpg" alt="Three-ME" width="650" height="700">
 **Figure 1.**
 
 <p>The unemployment rate is an important determinant of the wages dynamic which is 
