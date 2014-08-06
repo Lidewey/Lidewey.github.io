@@ -11,7 +11,7 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="http://lidewey.github.io/">Home</a>
     <a class="sidebar-nav-item{% if page.url == http://lidewey.github.io/Themodel/ %} active{% endif %}" href="http://lidewey.github.io/Themodel/">The model</a>
-    <a class="sidebar-nav-item{% if page.url == http://lidewey.github.io/News/ %} active{% endif %}" href="http://lidewey.github.io/news/">News</a>
+    <a class="sidebar-nav-item{% if page.url == http://lidewey.github.io/News/ %} active{% endif %}" href="http://lidewey.github.io/News/">News</a>
     <a class="sidebar-nav-item{% if page.url == http://lidewey.github.io/Events/ %} active{% endif %}" href="http://lidewey.github.io/Events/">Events</a>
     <a class="sidebar-nav-item{% if page.url == http://lidewey.github.io/Documentationl/ %} active{% endif %}" href="http://lidewey.github.io/Documentation/">Documentation and support</a>
     <a class="sidebar-nav-item{% if page.url == http://lidewey.github.io/Download/ %} active{% endif %}" href="http://lidewey.github.io/Download/">Download</a>
@@ -35,10 +35,10 @@
 
     {% assign pages_list = site.pages %}
     {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
+      {% if page.title != null %}
+        {% if page.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == page.url %} active{% endif %}" href="{{ page.url }}"
-          >{{ node.title }}</a>
+          >{{ page.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
