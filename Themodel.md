@@ -20,7 +20,7 @@ factors: because of discouraged worker effects, the unemployment rate may affect
 participation rate and thus the active population.</p>
 
 <img src="/threeme.jpg" alt="Three-ME" width="500" height="550">
-Figure 1.
+**Figure 1.**
 
 <p>The unemployment rate is an important determinant of the wages dynamic which is 
 defined by a Phillips curve. The inflationary property of the model is determined by the 
