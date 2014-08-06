@@ -15,7 +15,6 @@ title: Documentation and support
 h2 { text-align: left }
 p { text-align: left }
 </style> 
-<h2>Events</h2>
 <div class="newspaper">
 <h3>Stromae</h3>
 4 Aug - 7:30 PMZénith de Paris<br>
