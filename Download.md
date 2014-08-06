@@ -1,0 +1,11 @@
+---
+layout: page
+title: Download
+---
+
+
+<h2>Download</h2>
+
+<p> Download the application/pdf <br>
+
+<a href="http://www.ofce.sciences-po.fr/pdf/dtravail/WP2011-10.pdf">http://www.ofce.sciences-po.fr/pdf/dtravail/WP2011-10.pdf</a>
