@@ -94,4 +94,5 @@ the exogenous rate of inflation in the rest of the world. The endogenous dynamic
 is determined by capital accumulation of households and firms, the specification of the 
 anticipation and of the adjustment dynamic.</p>
 
-<img src="/threeme.jpg" alt="Three-ME" width="400" height="450">
+<img src="/threeme.jpg" alt="Three-ME" width="500" height="550">
+Figure 1.
