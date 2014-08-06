@@ -3,4 +3,4 @@ layout: post
 title: First post
 ---
 
-Blabla
+Example first post
