@@ -3,17 +3,21 @@ layout: default
 title: Home
 ---
 
+<!-- Add a search form with a query input. -->
 <div id="search">
   <form action="lidewey.github.io" method="get">
     <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
   </form>
 </div>
 
+<!-- Add an element to contain the list of search result entries. -->
 <section id="search-results" style="display: none;">
   <p>Search results</p>
   <div class="entries">
   </div>
 </section>
+
+<!-- Create a Mustache template to display the search results. -->
 {% raw %}
 <script id="search-results-template" type="text/mustache">
   {{#entries}}
@@ -26,6 +30,8 @@ title: Home
   {{/entries}}
 </script>
 {% endraw %}
+
+<!-- Configure the jQuery plugin for the search input field. -->
 <script type="text/javascript">
   $(function() {
     $('#search-query').lunrSearch({
