@@ -1,13 +1,24 @@
-markdown: redcarpet
-highlighter: null
-permalink: /:title
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-url:
-baseurl:
+# Permalinks
+permalink:        pretty
 
-redcarpet:
-  extensions: [strikethrough, tables]
+# Setup
+title:            Three-ME
+tagline:          'OFCE'
+description:      'Menu'
+url:              http://lanyon.getpoole.com
+baseurl:          '/'
+paginate:         5
 
-sass:
-  sass_dir: public/css
-  style: :compressed
+author:
+  name:           'Lidewey van der Wal'
+  url:            https://twitter.com/mdo
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon

@@ -3,9 +3,56 @@ layout: default
 title: Home
 ---
 
-<h1>Paris</h1>
+<!-- Add a search form with a query input. -->
+<div id="search">
+  <form action="lidewey.github.io" method="get">
+    <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+  </form>
+</div>
 
-<p>Paris is the capital and most populous city of France. Situated on the Seine River, in the north of the country, it is at the heart of the Île-de-France region. The city's municipality(the 20 arrondissements) had a population of 2,243,833 in 2010, while its urban agglomeration, the most populous in the European Union, had more than 10 million inhabitants.[6] An important settlement for more than two millennia, by the late 12th century Paris had become a walled cathedralcity that was one of Europe's foremost centres of learning and the arts and the largest city in the Western world until the turn of the 18th century. Paris was the focal point for many important political events throughout its history, including the French Revolution. Today it is one of the world's leading business and cultural centres, and its influence in politics, education, entertainment, media, science, fashion and the arts all contribute to its status as one of the world's major cities. The city has one of the largest GDPs in the world, €607 billion (US$845 billion) in 2011, and as a result of its high concentration of national and international political, cultural and scientific institutions is one of the world's leading tourist destinations. The Paris Region hosts the world headquarters of 30 of the Fortune Global 500 companies[7] in several business districts, notably La Défense, the largest dedicated business district in Europe.[8] Centuries of cultural and political development have brought Paris a variety of museums, theatres, monuments and architectural styles. Many of its masterpieces such as the Louvre and the Arc de Triomphe are iconic buildings, especially its internationally recognized symbol, the Eiffel Tower. Long regarded as an international centre for the arts, works by history's most famous painters can be found in the Louvre, the Musée d'Orsay and its many other museums and galleries. Paris is a global hub of fashion and has been referred to as the "international capital of style", noted for its haute couture tailoring, its high-end boutiques, and the twice-yearly Paris Fashion Week. It is world renowned for its haute cuisine, attracting many of the world's leading chefs. Many of France's most prestigious universities and Grandes Écoles are in Paris or its suburbs, and France's major newspapers Le Monde,Le Figaro, Libération are based in the city, and Le Parisien in Saint-Ouen near Paris. Paris is home to the association football club Paris Saint-Germain FC and the rugby union club Stade Français. The 80,000-seat Stade de France, built for the 1998 FIFA World Cup, is located in Saint-Denis. Paris hosts the annualFrench Open Grand Slam tennis tournament on the red clay of Roland Garros. Paris played host to the 1900 and1924 Summer Olympics, the 1938 and 1998 FIFA World Cup, and the 2007 Rugby World Cup. The city is a major rail, highway, and air-transport hub, served by the two international airports Paris-Charles de Gaulle and Paris-Orly. Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily. Paris is the hub of the national road network, and is surrounded by three orbital roads: the Boulevard Périphérique, the A86 motorway, and the Francilienne motorway in the outer suburbs.</p>
+<!-- Add an element to contain the list of search result entries. -->
+<section id="search-results" style="display: none;">
+  <p>Search results</p>
+  <div class="entries">
+  </div>
+</section>
+
+<!-- Create a Mustache template to display the search results. -->
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
+
+<!-- Configure the jQuery plugin for the search input field. -->
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+
+
+<h2>What is Three-ME</h2>
+
+<p>Three-ME (Multi-sector Macroeconomic Model for the Evaluation of Environmental 
+and Energy policy) is a new model of the French economy developed by ADEME, OFCE and 
+IVM.  Its main purpose is to evaluate the medium and long term impact of environmental and energy policy measures on the economy at the macroeconomic and sectoral levels. To do so, Three-ME combines two important features. Firstly, it has the main characteristics of neo-Keynesian models by assuming a slow adjustment of effective quantities and prices to their notional level. Compared to standard multi-sectors CGEM, this has the advantage to allow for the existence of under-optimum equilibriums such as the presence of involuntary unemployment. Secondly, production and consumption structures are represented with a generalized CES function which allows for the elasticity of substitution to differ between each couple of inputs or goods.  This is an improvement compared to the standard approach that uses nested CES functions which has the disadvantage to impose a common elasticity of substitution between the goods located in two different nested structures. <br>
+Go to the <a href="http://lidewey.github.io/1Themodel/#Figure_1">model</a>.</p>
+
+
+
 
 
 <section class="archive">
@@ -42,3 +89,7 @@ title: Home
 
 {% endfor %}
 </section>
+
+
+
+<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
