@@ -19,7 +19,7 @@ is mainly determined by exogenous factors such as the demography but also by end
 factors: because of discouraged worker effects, the unemployment rate may affect the labor 
 participation rate and thus the active population.</p>
 
-**<a name="Figure">Figure 1</a>**
+**<a name="Figure">Three-ME Model</a>**
 <img src="/images/threeme.jpg" alt="Three-ME" width="650" height="700">
 
 
