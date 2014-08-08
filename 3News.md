@@ -3,7 +3,7 @@ layout: page
 title: News
 ---
 
-<h2>News</h2>
+<h2>	News</h2>
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -22,15 +22,15 @@ title: News
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="http://lidewey.github.io/3News/">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a class="pagination-item newer" href="http://lidewey.github.io/3News/">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="http://lidewey.github.io/3News/">Newer</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
