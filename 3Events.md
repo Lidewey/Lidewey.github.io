@@ -6,6 +6,7 @@ title: Events
 <div style="float:left; width:55%;">
 	<p>
 
+<a href "http://lidewey.github.io/2014/08/06/First-post/">Event #1</a>
 <i>Info event 1</i><br>
 <img src="http://www.freevector.com/site_media/preview_images/FreeVector-Business-Meeting.jpg">
 
