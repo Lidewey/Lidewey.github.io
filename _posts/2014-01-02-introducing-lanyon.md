@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is Three-ME
+title: Event 2
 ---
 
 Three-ME (Multi-sector Macroeconomic Model for the Evaluation of Environmental 

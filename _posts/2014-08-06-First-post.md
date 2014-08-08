@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post
+title: Event 1
 ---
 
 Example first post
