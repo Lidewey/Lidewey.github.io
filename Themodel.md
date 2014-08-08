@@ -17,7 +17,7 @@ consumption. Another effect of employment on demand goes through the wage settin
 unemployment rate which is also determined by the active population. The active population 
 is mainly determined by exogenous factors such as the demography but also by endogenous 
 factors: because of discouraged worker effects, the unemployment rate may affect the labor 
-participation rate and thus the active population.</p>
+participation rate and thus the active population.</p><br>
 
 <a name="Figure">Three-ME Model</a>
 <img src="/images/threeme.jpg" alt="Three-ME" width="650" height="700">
