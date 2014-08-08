@@ -6,7 +6,6 @@ title: Events
 <div style="float:left; width:55%;">
 	<p>
 
-	<a name="Events">Events</a>
 <i>Info event 1</i><br>
 <img src="http://www.freevector.com/site_media/preview_images/FreeVector-Business-Meeting.jpg">
 
