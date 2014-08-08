@@ -6,7 +6,7 @@ title: Home
 <!-- Add a search form with a query input. -->
 <div id="search">
   <form action="lidewey.github.io" method="get">
-    <input type="text" id="search-query" name="q" placeholder="Type here" autocomplete="off">
+    <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
   </form>
 </div>
 
@@ -51,38 +51,45 @@ and Energy policy) is a new model of the French economy developed by ADEME, OFCE
 IVM.  Its main purpose is to evaluate the medium and long term impact of environmental and energy policy measures on the economy at the macroeconomic and sectoral levels. To do so, Three-ME combines two important features. Firstly, it has the main characteristics of neo-Keynesian models by assuming a slow adjustment of effective quantities and prices to their notional level. Compared to standard multi-sectors CGEM, this has the advantage to allow for the existence of under-optimum equilibriums such as the presence of involuntary unemployment. Secondly, production and consumption structures are represented with a generalized CES function which allows for the elasticity of substitution to differ between each couple of inputs or goods.  This is an improvement compared to the standard approach that uses nested CES functions which has the disadvantage to impose a common elasticity of substitution between the goods located in two different nested structures. <br>
 Go to the <a href="http://lidewey.github.io/1Themodel/#Figure_1">model</a>.</p>
 
-<h2>Events</h2>
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h3 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h3>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+
+<section class="archive">
+{% for post in site.posts %}
+{% unless post.next %}
+
+{% unless forloop.first %}</div></div>{% endunless %}
+
+  <div class="bundle row gutters fadeInDown animated">
+    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
+
+{% else %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% if year != nyear %}
+
+{% unless forloop.first %}</div></div>{% endunless %}
+
+  <div class="bundle row gutters fadeInDown animated">
+    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
+{% endif %}
+{% endunless %}
+
+  <article class="row gutters">
+    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
+    <div class="post-date col span_4">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+    </div>
+  </article>
+
+{% if forloop.last %}</div></div>{% endif %}
+
+{% endfor %}
+</section>
+
+
 
 <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
