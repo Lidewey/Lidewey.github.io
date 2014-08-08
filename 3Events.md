@@ -6,7 +6,7 @@ title: Events
 <div style="float:left; width:55%;">
 	<p>
 
-<h3>Event #2</h3>
+<h3>Event #1</h3>
 <i>Info event 1</i><br>
 <img src="http://www.freevector.com/site_media/preview_images/FreeVector-Business-Meeting.jpg">
 
