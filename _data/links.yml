@@ -1,0 +1,11 @@
+- url: /index.html
+  title: Home
+
+- url: /shopping.html
+  title: Shopping
+
+- url: /restaurants.html
+  title: Restaurants
+
+- url: /events.html
+  title: Events

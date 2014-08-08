@@ -1,48 +1,38 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
-  {% include head.html %}
-
-  <!-- Add theme to website -->
-  <body class="theme-base-0c">
-
-    {% include sidebar.html %}
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="container azul">
+      <header class="top row gutters{% if page.title == "Home" %} fadeInLeft animated{% endif %}">
+        <div class="col span_2 center">
+          <!-- TODO: add baseurl to the logo link -->
+          <a href="{{ site.url }}" id="logo" title="{{ site.data.brume.name }}"
+             style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
         </div>
-      </div>
+        {% include navigation.html %}
+      </header>
 
-      <div class="container content">
-        {{ content }}
-      </div>
+      {{ content }}
+
+<footer>
+  <hr>
+<a href="http://lidewey.github.io//">Home</a> &nbsp;&nbsp;&middot;
+<a href="http://lidewey.github.io/shopping.html">Shopping</a>&nbsp;&nbsp;&middot;
+<a href="http://lidewey.github.io/restaurants.html">Restaurants</a>&nbsp;&nbsp;&middot;
+<a href="http://lidewey.github.io/events.html">Events</a>
+        </p>
+      </footer>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
     <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
+      $(document).ready(function(){
+        $("article").fitVids();
+      });
     </script>
   </body>
 </html>
