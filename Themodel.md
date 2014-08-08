@@ -3,9 +3,9 @@ layout: page
 title: The model
 ---
 
-<a name="The Model">
+
 <p>
-The overall structure of the model is schematized in Figure 1. In the short term, Three-ME has the main characteristics of a standard neo-Keynesian macroeconomic model of 
+The overall structure of the model is schematized in <a href="#Figure">Figure 1</a>. In the short term, Three-ME has the main characteristics of a standard neo-Keynesian macroeconomic model of 
 demand in an open economy. An important one is that demand determines supply. The 
 demand is composed of (intermediate and final) consumption, investment and export whereas 
 the supply comes from imports and the domestic production. As a feed-back with eventually 
@@ -20,7 +20,7 @@ factors: because of discouraged worker effects, the unemployment rate may affect
 participation rate and thus the active population.</p>
 
 <img src="/images/threeme.jpg" alt="Three-ME" width="650" height="700">
-**Figure 1.**
+**<a name="Figure">Figure 1</a>**
 
 <p>The unemployment rate is an important determinant of the wages dynamic which is 
 defined by a Phillips curve. The inflationary property of the model is determined by the 
@@ -96,9 +96,3 @@ same rate as the technical progress. All prices grow at the rate of inflation wh
 the exogenous rate of inflation in the rest of the world. The endogenous dynamic of the model 
 is determined by capital accumulation of households and firms, the specification of the 
 anticipation and of the adjustment dynamic.</p>
-
-<center>
-<a href="#The Model">Top</a>
-&nbsp;|&nbsp;
-<a href="#Bot">Bottom</a>
-</center>
