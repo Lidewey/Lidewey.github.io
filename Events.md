@@ -4,8 +4,7 @@ title: Events
 ---
 
 <div style="float:left; width:55%;">
-	<h2>Three-ME events</h2>
-<p>
+	<p>
 
 	<h4>Event #1</h4>
 <i>Info event 1</i><br>
