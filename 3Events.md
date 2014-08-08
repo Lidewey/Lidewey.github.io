@@ -6,21 +6,39 @@ title: Events
 <div style="float:left; width:55%;">
 	<p>
 
-	<h4>Event #1</h4>
+	<a name="Events">Events</a>
 <i>Info event 1</i><br>
 <img src="http://www.freevector.com/site_media/preview_images/FreeVector-Business-Meeting.jpg">
 
-<br>	<h3>Event #2</h3>
-<i>Info event #2</i><br>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h3 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+     {{ post.content }} 
+  </div>
+  {% endfor %}
+</div>
 
-<br>	<h3>Event #3</h3>
-<i>Info event #3</i><br>
-
-<br>	<h3>Event #4</h3>
-<i>Info event #4</i><br>
-
-<br>	<h3>Event #5</h3>
-<i>Info event #5</i><br>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
 
 <div style="float:right; width:20%; ">
