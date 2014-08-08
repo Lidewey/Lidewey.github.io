@@ -3,6 +3,7 @@ layout: page
 title: Events
 ---
 
+<a href="http://path/to/page/#name_of_target">Link Text</a>
 <div style="float:left; width:55%;">
 	<p>
 
