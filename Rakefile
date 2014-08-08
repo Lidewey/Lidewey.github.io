@@ -1,6 +1,14 @@
 require 'rake'
 require 'uglifier'
 
+ROOT = File.expand_path('..', __FILE__)
+
+task :build_and_move => [:build] do
+  cp_r(File.join(ROOT, 'slate/build'), File.join(ROOT, '../app/docs'))
+  # or
+  # mv(File.join(ROOT, 'slate/build'), File.join(ROOT, '../app/docs'))
+end
+
 task :default => :build
 
 task :build => [:create_build_dir, :copy_jekyll_plugin, :concat_js, :minify_js] do
