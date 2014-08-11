@@ -13,7 +13,7 @@ Yasser Yeddir-Tamsamani <br>
 Email: <a href="mailto: yasser.yeddirtamsamani@ofce.sciences-po.fr">yasser.yeddirtamsamani@ofce.sciences-po.fr</a><br> 
 (Observatoire Français des Conjonctures Économiques) <br>
 
-Gaël Callonec
+Gaël Callonec<br>
 Email: <a href="mailto: gael.callonnec@ademe.fr">gael.callonnec@ademe.fr</a><br> 
 (Agence de l'environnement et de la maîtrise de l'énergie)<br>
 </p>
