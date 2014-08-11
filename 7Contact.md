@@ -12,7 +12,7 @@ Visit us at:<br>
 75007 PARIS<br>
 </address>
 
-<h3>Author info:</h3>
+<h2>Author info</h2>
 <p>
 Frédéric Reynes <br>
 Email: <a href="mailto: frederic.reynes@ivm.vu.nl">frederic.reynes@ivm.vu.nl</a><br> 
