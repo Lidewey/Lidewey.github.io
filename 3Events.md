@@ -18,13 +18,13 @@ title: Events
 </i><br>
 
 <br>	<h3>ETSAP-UCC Workshop</h3>
-<i>Feb.14 - Cork <br>
+<i>Feb. 14 - Cork <br>
  Organizing Institution: University College Cork <br>
  Methodologies linking energy system models and economics models
 </i><br>
 
 <br>  <h3>Presentation Indonesia BAPPENAS</h3>
-<i>Mar.14 - Jakarta <br>
+<i>Mar. 14 - Jakarta <br>
  Organizing Institution:  AFD <br>
  The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model  
 </i><br>
