@@ -7,30 +7,30 @@ title: Events
 	<p>
 
 <h3>Workshop Macroeconomic Modeling</h3>
-<i>Feb. 13 - Paris <br>
+Feb. 13 - Paris <br>
   Organizing Institution: IEA
-</i><br>
+<br>
 
 <br>	<h3>Modeling Workshop </h3>
-<i>Feb. 13 - Mexico <br>
+Feb. 13 - Mexico <br>
   Organizing Institution: INECC <br>
   Introduction to model tools & general equilibrium models applied to economic, environmental and energy issues
-</i><br>
+<br>
 
 <br>	<h3>ETSAP-UCC Workshop</h3>
-<i>Feb. 14 - Cork <br>
+Feb. 14 - Cork <br>
  Organizing Institution: University College Cork <br>
  Methodologies linking energy system models and economics models
-</i><br>
+<br>
 
 <br>  <h3>Presentation Indonesia BAPPENAS</h3>
-<i>Mar. 14 - Jakarta <br>
+Mar. 14 - Jakarta <br>
  Organizing Institution:  AFD <br>
  The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model  
-</i><br>
+<br>
 
 <br>	<h3>Presentation Negawatt</h3>
-<i>May 13 - Paris <br>
+May 13 - Paris <br>
   Organizing Institution: Negawatt <br>
   Simulation du scénario Négawatt à l'aide du modèle ThreeME
 
@@ -38,9 +38,9 @@ title: Events
   Info event #5</i><br>
 
 <br>  <h3>Présentation des variantes effectuées à l'aide de ThreeME</h3>
-<i>May 13 - Paris <br>
+May 13 - Paris <br>
 Organizing Institution: Bercy
-</i><br>
+<br>
 
 </div>
 
