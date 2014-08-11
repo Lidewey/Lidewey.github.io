@@ -5,39 +5,37 @@ title: Events
 
 <div style="float:left; width:55%;">
 	<p>
-<a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Blabla</a>  
+<a href="http://lidewey.github.io/2014/02/13/Workshop-Macroeconomic-Modeling/">Workshop Macroeconomic Modeling</a>  
 <h3>Workshop Macroeconomic Modeling</h3>
 Feb. 13 - Paris <br>
   Organizing Institution: IEA
 <br>
 
-<br>	<h3>Modeling Workshop </h3>
+<br><a href="http://lidewey.github.io/2014/02/13/Modeling-Workshop/">Modeling Workshop</a>	<h3>Modeling Workshop </h3>
 Feb. 13 - Mexico <br>
   Organizing Institution: INECC <br>
   Introduction to model tools & general equilibrium models applied to economic, environmental and energy issues
 <br>
 
-<br>	<h3>ETSAP-UCC Workshop</h3>
+<br>	<a href="http://lidewey.github.io/2014/02/14/ETSAP-UCC-Workshop/">ETSAP-UCC Workshop</a> <h3>ETSAP-UCC Workshop</h3>
 Feb. 14 - Cork <br>
  Organizing Institution: University College Cork <br>
  Methodologies linking energy system models and economics models
 <br>
 
-<br>  <h3>Presentation Indonesia BAPPENAS</h3>
+<br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Presentation Indonesia BAPPENAS</a> 
 Mar. 14 - Jakarta <br>
  Organizing Institution:  AFD <br>
  The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model  
 <br>
 
-<br>	<h3>Presentation Negawatt</h3>
+<br>	<a href="http://lidewey.github.io/2014/05/13/Presentation-Negawatt/">Presentation Negawatt</a><h3>Presentation Negawatt</h3>
 May 13 - Paris <br>
   Organizing Institution: Negawatt <br>
   Simulation du scénario Négawatt à l'aide du modèle ThreeME
+</i><br>
 
-
-  Info event #5</i><br>
-
-<br>  <h3>Présentation des variantes effectuées à l'aide de ThreeME</h3>
+<br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Présentation des variantes effectuées à l'aide de ThreeME</a> <h3>Présentation des variantes effectuées à l'aide de ThreeME</h3>
 May 13 - Paris <br>
 Organizing Institution: Bercy
 <br>
