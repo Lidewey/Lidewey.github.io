@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-
+<img src="/images/Three-ME.jpg">	
 <address>
 <p>
 Email: <a href="mailto: webadm@ofce.sciences-po.fr">webadm@ofce.sciences-po.fr</a><br> 
