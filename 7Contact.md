@@ -6,7 +6,7 @@ title: Contact
 
 <address>
 Email: <a href="mailto: webadm@ofce.sciences-po.fr">webadm@ofce.sciences-po.fr</a><br> 
-Phone: 01 44 18 54 00 <br>
+<a href="01 44 18 54 00">01 44 18 54 00</a><br>
 Fax: 01 45 56 06 15<br>
 Visit us at:<br>
 <a href="http://www.ofce.sciences-po.fr/">www.ofce.sciences-po.fr</a><br>
