@@ -22,12 +22,12 @@ Email: <a href="mailto: frederic.reynes@ivm.vu.nl">frederic.reynes@ivm.vu.nl</a>
 (VU University Amsterdam, IVM - Institute for Environmental Studies)<br>
 </p>
 <p>
-Yasser Yeddir-Tamsamani <br>
+<strong>Yasser Yeddir-Tamsamani</strong> <br>
 Email: <a href="mailto: yasser.yeddirtamsamani@ofce.sciences-po.fr">yasser.yeddirtamsamani@ofce.sciences-po.fr</a><br> 
 (Observatoire Français des Conjonctures Économiques) <br>
 </p>
 <p>
-Gaël Callonec<br>
+<strong>Gaël Callonec</strong><br>
 Email: <a href="mailto: gael.callonnec@ademe.fr">gael.callonnec@ademe.fr</a><br> 
 (Agence de l'environnement et de la maîtrise de l'énergie)<br>
 </p>
