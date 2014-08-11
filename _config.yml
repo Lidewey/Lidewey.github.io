@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            OFCE ADEME IVM
-tagline:          ''
+title:            
+tagline:          'OFCE ADEME IVM'
 description:      'Menu'
 url:              http://lanyon.getpoole.com
 baseurl:          '/'
