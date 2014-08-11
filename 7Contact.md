@@ -4,17 +4,19 @@ title: Contact
 ---
 
 Author info:
-
-<noframes>Frédéric Reynes</noframes>Frédéric Reynes <br>
+<p>
+Frédéric Reynes <br>
 Email: <a href="mailto: frederic.reynes@ivm.vu.nl">frederic.reynes@ivm.vu.nl</a><br> 
 (VU University Amsterdam, IVM - Institute for Environmental Studies)<br>
-<abbr>Yasser</abbr>
-Yasser Yeddir-Tamsamani
-(yasser.yeddirtamsamani@ofce.sciences-po.fr)
-(Observatoire Français des Conjonctures Économiques)
+
+Yasser Yeddir-Tamsamani <br>
+Email: <a href="mailto: yasser.yeddirtamsamani@ofce.sciences-po.fr">yasser.yeddirtamsamani@ofce.sciences-po.fr</a><br> 
+(Observatoire Français des Conjonctures Économiques) <br>
+
 Gaël Callonec
-(gael.callonnec@ademe.fr)
-(Agence de l'environnement et de la maîtrise de l'énergie)
+Email: <a href="mailto: gael.callonnec@ademe.fr">gael.callonnec@ademe.fr</a><br> 
+(Agence de l'environnement et de la maîtrise de l'énergie)<br>
+</p>
 
 <address>
 Email: <a href="mailto: webadm@ofce.sciences-po.fr">webadm@ofce.sciences-po.fr</a><br> 
