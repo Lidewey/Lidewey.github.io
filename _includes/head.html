@@ -8,11 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   
  <!-- Browser bar title; Site title: Three-ME, site tagline: OFCE, page title: Name shown in menu bar -->
-  <title>
+<!--   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title> -->
+
+   <title>
+    {% if page.title == "Home" %}
+      Home &middot; Three-ME
+    {% else %}
+      {{ page.title }} &middot; Three-ME
     {% endif %}
   </title>
 
