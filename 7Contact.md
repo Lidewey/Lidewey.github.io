@@ -10,6 +10,7 @@ Visit us at:<br>
 <a href="http://www.ofce.sciences-po.fr/">www.ofce.sciences-po.fr</a><br>
 69, quai d'Orsay <br>
 75007 PARIS<br>
+</address>
 
 <h3>Author info:</h3>
 <p>
@@ -27,5 +28,3 @@ Email: <a href="mailto: gael.callonnec@ademe.fr">gael.callonnec@ademe.fr</a><br>
 </p>
 
 
-
-</address>
