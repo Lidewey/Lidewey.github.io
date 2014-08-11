@@ -1,11 +1,10 @@
 ---
 layout: post
-title: ETSAP-UCC Workshop
+title: Workshop Macroeconomic Modeling
 ---
 
-Feb.14 - Cork 
-Organizing Institution: University College Cork 
-Methodologies linking energy system models and economics models 
+Feb. 13 - Paris <br>
+Organizing Institution: IEA  
 <div class="message">
   This is a "message" feature
 </div>
