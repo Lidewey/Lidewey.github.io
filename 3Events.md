@@ -10,7 +10,6 @@ title: Events
 <i>Feb. 13 - Paris <br>
   Organizing Institution: IEA
 </i><br>
-<img src="http://www.freevector.com/site_media/preview_images/FreeVector-Business-Meeting.jpg">
 
 <br>	<h3>Modeling Workshop </h3>
 <i>Feb. 13 - Mexico <br>
