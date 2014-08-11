@@ -3,7 +3,6 @@ layout: page
 title: Contact
 ---
 
-<img src="/images/ThreeME3.jpg" alt="Three-ME" width="200" height="200">	
 <address>
 <p>
 Email: <a href="mailto: webadm@ofce.sciences-po.fr">webadm@ofce.sciences-po.fr</a><br> 
