@@ -13,7 +13,7 @@ Fax: 01 45 56 06 15<br></p>
 69, quai d'Orsay <br>
 75007 PARIS<br></p>
 <!-- </address> -->
-
+<br>
 <h2>Author info</h2>
 <!-- <address> -->
 <p>
