@@ -15,6 +15,7 @@ Fax: 01 45 56 06 15<br></p>
 </address>
 
 <h2>Author info</h2>
+<address>
 <p>
 Frédéric Reynes <br>
 Email: <a href="mailto: frederic.reynes@ivm.vu.nl">frederic.reynes@ivm.vu.nl</a><br> 
@@ -30,5 +31,6 @@ Gaël Callonec<br>
 Email: <a href="mailto: gael.callonnec@ademe.fr">gael.callonnec@ademe.fr</a><br> 
 (Agence de l'environnement et de la maîtrise de l'énergie)<br>
 </p>
+</address>
 
 
