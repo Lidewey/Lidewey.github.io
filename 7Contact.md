@@ -6,6 +6,8 @@ title: Contact
 
 <address>
 Email: <a href="mailto: webadm@ofce.sciences-po.fr">webadm@ofce.sciences-po.fr</a><br> 
+Phone: 01 44 18 54 00 <br>
+Fax: 01 45 56 06 15<br>
 Visit us at:<br>
 <a href="http://www.ofce.sciences-po.fr/">www.ofce.sciences-po.fr</a><br>
 69, quai d'Orsay <br>
