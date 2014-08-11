@@ -5,7 +5,7 @@ title: Events
 
 <div style="float:left; width:55%;">
 	<p>
-
+<a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Blabla</a>  
 <h3>Workshop Macroeconomic Modeling</h3>
 Feb. 13 - Paris <br>
   Organizing Institution: IEA
