@@ -6,21 +6,43 @@ title: Events
 <div style="float:left; width:55%;">
 	<p>
 
-<h3>Event #1</h3>
-<i>Info event 1</i><br>
+<h3>Workshop Macroeconomic Modeling</h3>
+<i>Feb. 13 - Paris <br>
+  Organizing Institution: IEA
+</i><br>
 <img src="http://www.freevector.com/site_media/preview_images/FreeVector-Business-Meeting.jpg">
 
-<br>	<h3>Event #2</h3>
-<i>Info event #2</i><br>
+<br>	<h3>Modeling Workshop </h3>
+<i>Feb. 13 - Mexico <br>
+  Organizing Institution: INECC <br>
+  Introduction to model tools & general equilibrium models applied to economic, environmental and energy issues
+</i><br>
 
-<br>	<h3>Event #3</h3>
-<i>Info event #3</i><br>
+<br>	<h3>ETSAP-UCC Workshop</h3>
+<i>Feb.14 - Cork <br>
+ Organizing Institution: University College Cork <br>
+ Methodologies linking energy system models and economics models
+</i><br>
 
-<br>	<h3>Event #4</h3>
-<i>Info event #4</i><br>
+<br>  <h3>Presentation Indonesia BAPPENAS</h3>
+<i>Mar.14 - Jakarta <br>
+ Organizing Institution:  AFD <br>
+ The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model  
+</i><br>
 
-<br>	<h3>Event #5</h3>
-<i>Info event #5</i><br>
+<br>	<h3>Presentation Negawatt</h3>
+<i>May 13 - Paris <br>
+  Organizing Institution: Negawatt <br>
+  Simulation du scénario Négawatt à l'aide du modèle ThreeME
+
+
+  Info event #5</i><br>
+
+<br>  <h3>Présentation des variantes effectuées à l'aide de ThreeME</h3>
+<i>May 13 - Paris <br>
+Organizing Institution: Bercy
+</i><br>
+
 </div>
 
 <div style="float:right; width:20%; ">
