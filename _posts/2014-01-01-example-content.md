@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Events 3
+title: ETSAP-UCC Workshop
 ---
 
-
+Feb.14 - Cork 
+Organizing Institution: University College Cork 
+Methodologies linking energy system models and economics models 
 <div class="message">
   This is a "message" feature
 </div>

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Event 1
+title: Workshop Macroeconomic Modeling
 ---
 
-Example first post
+Feb. 13 - Paris 
+Organizing Institution: IEA
