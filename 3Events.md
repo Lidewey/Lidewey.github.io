@@ -17,13 +17,13 @@ Feb. 13 - Mexico <br>
 <br>
 
 <br>	<a href="http://lidewey.github.io/2014/02/14/ETSAP-UCC-Workshop/">ETSAP-UCC Workshop</a> <br>
-Feb. 14 - Cork <br>
+<small>{{ post.date | date_to_string }}</small> <br>
  Organizing Institution: University College Cork <br>
  Methodologies linking energy system models and economics models
 <br>
 
 <br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Presentation Indonesia BAPPENAS</a> <br>
-Mar. 14 - Jakarta <br>
+<small>{{ post.date | date_to_string }}</small> <br>
  Organizing Institution:  AFD <br>
  The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model  
 <br>
