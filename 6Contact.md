@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-<!-- <address> -->
+
 <p>
 Email: <a href="mailto: webadm@ofce.sciences-po.fr">webadm@ofce.sciences-po.fr</a><br> 
 Phone: 01 44 18 54 00<br>
@@ -12,10 +12,10 @@ Fax: 01 45 56 06 15<br></p>
 <a href="http://www.ofce.sciences-po.fr/">www.ofce.sciences-po.fr</a><br>
 69, quai d'Orsay <br>
 75007 PARIS<br></p>
-<!-- </address> -->
+
 <br>
 <h2>Author info</h2>
-<!-- <address> -->
+
 <p>
 <strong>Frédéric Reynes</strong> <br>
 Email: <a href="mailto: frederic.reynes@ivm.vu.nl">frederic.reynes@ivm.vu.nl</a><br> 
@@ -34,6 +34,6 @@ Email: <a href="mailto: gael.callonnec@ademe.fr">gael.callonnec@ademe.fr</a><br>
 <br>
 <h2>Technical support</h2>
 <p>For technical questions regarding this item, or to correct its authors, title, abstract, bibliographic or download information, contact:  <a href="mailto: francesco.saraceno@sciences-po.fr">francesco.saraceno@sciences-po.fr</a></p>
-<!-- </address> -->
+
 
 
