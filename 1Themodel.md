@@ -22,7 +22,6 @@ participation rate and thus the active population.</p><br>
 <a name="Figure_1">Three-ME Model</a>
 <img src="/images/threeme.jpg" alt="Three-ME" width="650" height="700">
 
-
 <p>The unemployment rate is an important determinant of the wages dynamic which is 
 defined by a Phillips curve. The inflationary property of the model is determined by the 
 feedback loop between wages, production cost and prices. Prices are assumed to adjust slowly 
