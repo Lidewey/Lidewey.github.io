@@ -36,7 +36,6 @@ Content: Simulation du scénario Négawatt à l'aide du modèle ThreeME
 <br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Présentation des variantes effectuées à l'aide de ThreeME</a> <br>
 13 May 2014 - Paris <br>
 Organizing Institution: Bercy <br>
-
 </div>
 
 <div style="float:right; width:15%; ">
