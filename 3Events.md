@@ -6,36 +6,36 @@ title: Events
 <div style="float:left; width:55%;">
 	<p>
 <a href="http://lidewey.github.io/2014/02/13/Workshop-Macroeconomic-Modeling/">Workshop Macroeconomic Modeling</a> <br> 
-Feb. 13 - Paris <br>
+<small>13 Feb 2014 - Paris </small><br>
   Organizing Institution: IEA
 <br>
 
 <br><a href="http://lidewey.github.io/2014/02/13/Modeling-Workshop/">Modeling Workshop</a>	<br>
-Feb. 13 - Mexico <br>
+<small>13 Feb 2014 - Mexico</small> <br>
   Organizing Institution: INECC <br>
   Introduction to model tools & general equilibrium models applied to economic, environmental and energy issues
 <br>
 
 <br>	<a href="http://lidewey.github.io/2014/02/14/ETSAP-UCC-Workshop/">ETSAP-UCC Workshop</a> <br>
-<small>14 Feb 2014</small> <br>
+<small>14 Feb 2014 - Cork</small> <br>
  Organizing Institution: University College Cork <br>
  Methodologies linking energy system models and economics models
 <br>
 
 <br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Presentation Indonesia BAPPENAS</a> <br>
-<small>14 Mar 2014</small> <br>
+<small>14 Mar 2014 - Jakarta</small> <br>
  Organizing Institution:  AFD <br>
  The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model  
 <br>
 
 <br>	<a href="http://lidewey.github.io/2014/05/13/Presentation-Negawatt/">Presentation Negawatt</a><br>
-May 13 - Paris <br>
+<small>13 May 2014 - Paris</small> <br>
   Organizing Institution: Negawatt <br>
   Simulation du scénario Négawatt à l'aide du modèle ThreeME
 </i><br>
 
 <br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Présentation des variantes effectuées à l'aide de ThreeME</a> <br>
-May 13 - Paris <br>
+<small>13 May 2014 - Paris</small> <br>
 Organizing Institution: Bercy
 <br>
 
