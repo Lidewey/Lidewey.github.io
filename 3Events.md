@@ -6,36 +6,36 @@ title: Events
 <div style="float:left; width:82%;">
 	<p>
 <a href="http://lidewey.github.io/2014/02/13/Workshop-Macroeconomic-Modeling/">Workshop Macroeconomic Modeling</a> <br> 
-<small>13 Feb 2014 - Paris <br>
-  Organizing Institution: IEA</small><br>
+13 Feb 2014 - Paris <br>
+  Organizing Institution: IEA<br>
 
 <br><a href="http://lidewey.github.io/2014/02/13/Modeling-Workshop/">Modeling Workshop</a>	<br>
-<small>13 Feb 2014 - Mexico <br>
+13 Feb 2014 - Mexico <br>
  Organizing Institution: INECC  <br>
-Content: Introduction to model tools & general equilibrium models applied to economic, environmental and energy issues</small> <br>
+Content: Introduction to model tools & general equilibrium models applied to economic, environmental and energy issues <br>
 
 
 <br>	<a href="http://lidewey.github.io/2014/02/14/ETSAP-UCC-Workshop/">ETSAP-UCC Workshop</a> <br>
-<small>14 Feb 2014 - Cork <br>
+14 Feb 2014 - Cork <br>
 Organizing Institution: University College Cork <br>
-Content: Methodologies linking energy system models and economics models</small> 
+Content: Methodologies linking energy system models and economics models 
 <br>
 
 <br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Presentation Indonesia BAPPENAS</a> <br>
-<small>14 Mar 2014 - Jakarta <br>
+14 Mar 2014 - Jakarta <br>
  Organizing Institution:  AFD <br>
- Content: The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model</small> <br>
+ Content: The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model <br>
 
 
 <br>	<a href="http://lidewey.github.io/2014/05/13/Presentation-Negawatt/">Presentation Negawatt</a><br>
-<small>13 May 2014 - Paris <br>
+13 May 2014 - Paris <br>
   Organizing Institution: Negawatt <br>
-Content: Simulation du scénario Négawatt à l'aide du modèle ThreeME</small> 
+Content: Simulation du scénario Négawatt à l'aide du modèle ThreeME
 </i><br>
 
 <br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Présentation des variantes effectuées à l'aide de ThreeME</a> <br>
-<small>13 May 2014 - Paris <br>
-Organizing Institution: Bercy</small> <br>
+13 May 2014 - Paris <br>
+Organizing Institution: Bercy <br>
 
 </div>
 
