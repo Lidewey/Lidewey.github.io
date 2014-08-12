@@ -21,11 +21,11 @@ Go to the <a href="http://lidewey.github.io/1Themodel/#Figure_1" target="Figure_
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h3 class="post-title">
+    <h4 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h3>
+    </h4>
     <span class="post-date">{{ post.date | date_to_string }}</span>
     <!-- {{ post.content }} -->
   </div>
