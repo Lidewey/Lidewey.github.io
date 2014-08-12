@@ -3,7 +3,7 @@ layout: page
 title: Events
 ---
 
-<div style="float:left; width:55%;">
+<div style="float:left; width:70%;">
 	<p>
 <a href="http://lidewey.github.io/2014/02/13/Workshop-Macroeconomic-Modeling/">Workshop Macroeconomic Modeling</a> <br> 
 <small>13 Feb 2014 - Paris </small><br>
@@ -41,7 +41,7 @@ Organizing Institution: Bercy
 
 </div>
 
-<div style="float:right; width:20%; ">
+<div style="float:right; width:15%; ">
 
 <head>
 <style>
