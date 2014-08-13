@@ -52,10 +52,10 @@ the relative price between energies. For instance, an increase in the oil price 
 substitution from oil to the other energy in several ways. In addition to direct substitutions by 
 producer and consumer, indirect effects occur via the increase of the production price of oil 
 intensive sectors. This leads to intermediate and final consumptions structure less oil 
-intensive. The decrease of the use of transport by road would be the most typical example.<br>
-&nbsp &nbsp &nbsp 
+intensive. The decrease of the use of transport by road would be the most typical example.</p><br> 
 <a name="Table1">Table 1</a>: Sector disaggregation in Three-ME <br><br>
 <img src="/images/Table1.jpg" alt="Three-ME" width="650" height="700"> <br>
+<p>
 Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
 contrast with the substitution mechanisms, the reduction of a given energy consumption does 
 not imply the increase of the use of another energy. Sobriety consists in refraining from 
