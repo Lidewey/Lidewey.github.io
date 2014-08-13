@@ -28,9 +28,8 @@ feedback loop between wages, production cost and prices. Prices are assumed to a
 to their optimum level that corresponds to a mark-up over marginal costs. Consequently, 
 wages, which affect production costs, affect directly prices. Prices have in return an impact on 
 wages because of they are indexed on the consumer price. Production costs are also directly 
-affected by prices via the cost of intermediate consumptions and of investment.</p>
-
-<p>This dynamic between wages, cost and prices affects the demand through several 
+affected by prices via the cost of intermediate consumptions and of investment. <br>
+&nbsp &nbsp &nbsp This dynamic between wages, cost and prices affects the demand through several 
 canals. Wages affect the household consumption because they are an important part of their 
 income. Prices and cost affect profits and thus sectors’ debts level. But they affect the 
 households’ consumption and investment too because they finance a part of the private debt 
