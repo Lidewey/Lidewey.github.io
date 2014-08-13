@@ -53,7 +53,9 @@ substitution from oil to the other energy in several ways. In addition to direct
 producer and consumer, indirect effects occur via the increase of the production price of oil 
 intensive sectors. This leads to intermediate and final consumptions structure less oil 
 intensive. The decrease of the use of transport by road would be the most typical example.<br>
-&nbsp &nbsp &nbsp Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
+&nbsp &nbsp &nbsp 
+<img src="/images/Table1.jpg" alt="Three-ME" width="650" height="700"> <br>
+Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
 contrast with the substitution mechanisms, the reduction of a given energy consumption does 
 not imply the increase of the use of another energy. Sobriety consists in refraining from 
 consuming energy by for instance staying home during the weekend instead of taking the car 
