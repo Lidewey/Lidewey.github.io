@@ -36,17 +36,15 @@ households’ consumption and investment too because they finance a part of the 
 of the economy. Another canal is the monetary policy which is defined by a Taylor rule. The 
 European central bank determines the interest rate level based on the European level of 
 inflation and unemployment. This has an effect on the demand via the negative effect of the 
-real interest rate on consumption and investment. </p>
-
-<p>The dynamic of prices is the driver of the substitution mechanisms of the model. The 
+real interest rate on consumption and investment. <br>
+&nbsp &nbsp &nbsp The dynamic of prices is the driver of the substitution mechanisms of the model. The 
 evolution of relative prices between imported and domestic goods defines the repartition 
 between imported and domestic products to satisfy the internal (consumption and 
 investments) and external (export) demand. The evolution of relative prices between types of 
 goods and services defines the structure of consumption of the economy. Importantly for the 
 analysis of environmental and energy policies, it defines the share of each energy and 
-transport into (intermediate and final) consumptions. </p>
-
-<p>Three-ME explicitly distinguishes between five types of transports and four types of 
+transport into (intermediate and final) consumptions. <br>
+&nbsp &nbsp &nbsp Three-ME explicitly distinguishes between five types of transports and four types of 
 energy (resp. red and yellow lines in Table 1). Energy intensity was the main criterion for the 
 selection of the 24 sectors (see Appendix C). This relatively high level of disaggregation is 
 important to capture the complexity of the substitution mechanisms involved after a change in 
@@ -54,9 +52,8 @@ the relative price between energies. For instance, an increase in the oil price 
 substitution from oil to the other energy in several ways. In addition to direct substitutions by 
 producer and consumer, indirect effects occur via the increase of the production price of oil 
 intensive sectors. This leads to intermediate and final consumptions structure less oil 
-intensive. The decrease of the use of transport by road would be the most typical example.</p>
-
-<p>Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
+intensive. The decrease of the use of transport by road would be the most typical example.<br>
+&nbsp &nbsp &nbsp Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
 contrast with the substitution mechanisms, the reduction of a given energy consumption does 
 not imply the increase of the use of another energy. Sobriety consists in refraining from 
 consuming energy by for instance staying home during the weekend instead of taking the car 
@@ -66,9 +63,8 @@ achieved with a lower quantity of energy. Energy efficiency implies an investmen
 efficient technology by for instance switching from a high to a low oil consumption car or by 
 using more efficient insulation techniques for the house. In the current version of model, endogenous efficiency phenomena are introduced through an explicit distinction between two 
 types of housing and automobile investments: energy saving housing and “comfort” housing 
-investments; low and high oil consumption cars.</p>
-
-<p>In Three-ME, efficiency and sobriety phenomena decrease the consumer price since the 
+investments; low and high oil consumption cars.<br>
+&nbsp &nbsp &nbsp In Three-ME, efficiency and sobriety phenomena decrease the consumer price since the 
 share of energy into consumption decreases (see Section V ). This allows for directly 9
 capturing the so-called “rebound effect” in consumption behaviour often observed at the 
 micro level (Bentzen, 2004; Sorrell and al., 2009). There is a rebound effect when the 
@@ -80,9 +76,8 @@ bill. After an insulation investment, they will have the tendency to increase th
 temperature of their house keeping their energy bill more or less constant. This effect is 
 explicitly taken into account in the model: an energy efficiency investment decreases the 
 consumer price and thus increases the real income which leads to a higher level of (energy) 
-consumption. </p>
-
-<p>The short and medium run dynamic is largely driven by the demand side through multiplier 
+consumption. <br>
+&nbsp &nbsp &nbsp The short and medium run dynamic is largely driven by the demand side through multiplier 
 and accelerator mechanisms. Because of the slow adjustment of price and quantity to their 
 optimal value, the allocation of production factors is sub-optimal in the short and medium run. 
 The long term is driven by the supply constrain. All adjustment processes are achieved: there 
