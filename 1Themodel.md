@@ -54,7 +54,7 @@ producer and consumer, indirect effects occur via the increase of the production
 intensive sectors. This leads to intermediate and final consumptions structure less oil 
 intensive. The decrease of the use of transport by road would be the most typical example.<br>
 &nbsp &nbsp &nbsp 
-<a name="Table1">Table 1</a>: Sector disaggregation in Three-ME <br>
+<a name="Table1">Table 1</a>: Sector disaggregation in Three-ME <br><br>
 <img src="/images/Table1.jpg" alt="Three-ME" width="650" height="700"> <br>
 Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
 contrast with the substitution mechanisms, the reduction of a given energy consumption does 
