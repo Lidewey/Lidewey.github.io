@@ -93,3 +93,4 @@ same rate as the technical progress. All prices grow at the rate of inflation wh
 the exogenous rate of inflation in the rest of the world. The endogenous dynamic of the model 
 is determined by capital accumulation of households and firms, the specification of the 
 anticipation and of the adjustment dynamic.</p>
+<a href="#">Go back up</a>
