@@ -45,7 +45,7 @@ goods and services defines the structure of consumption of the economy. Importan
 analysis of environmental and energy policies, it defines the share of each energy and 
 transport into (intermediate and final) consumptions. <br>
 &nbsp &nbsp &nbsp Three-ME explicitly distinguishes between five types of transports and four types of 
-energy (resp. red and yellow lines in Table 1). Energy intensity was the main criterion for the 
+energy (resp. red and yellow lines in <a href="#Table1">Table 1</a>). Energy intensity was the main criterion for the 
 selection of the 24 sectors (see Appendix C). This relatively high level of disaggregation is 
 important to capture the complexity of the substitution mechanisms involved after a change in 
 the relative price between energies. For instance, an increase in the oil price tends to lead to 
@@ -54,6 +54,7 @@ producer and consumer, indirect effects occur via the increase of the production
 intensive sectors. This leads to intermediate and final consumptions structure less oil 
 intensive. The decrease of the use of transport by road would be the most typical example.<br>
 &nbsp &nbsp &nbsp 
+<a name="Table1">Table 1</a>: Sector disaggregation in Three-ME <br>
 <img src="/images/Table1.jpg" alt="Three-ME" width="650" height="700"> <br>
 Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
 contrast with the substitution mechanisms, the reduction of a given energy consumption does 
