@@ -46,7 +46,7 @@ analysis of environmental and energy policies, it defines the share of each ener
 transport into (intermediate and final) consumptions. <br>
 &nbsp &nbsp &nbsp Three-ME explicitly distinguishes between five types of transports and four types of 
 energy (resp. red and yellow lines in <a href="#Table1">Table 1</a>). Energy intensity was the main criterion for the 
-selection of the 24 sectors (see Appendix C). This relatively high level of disaggregation is 
+selection of the 24 sectors <!-- (see Appendix C) -->. This relatively high level of disaggregation is 
 important to capture the complexity of the substitution mechanisms involved after a change in 
 the relative price between energies. For instance, an increase in the oil price tends to lead to 
 substitution from oil to the other energy in several ways. In addition to direct substitutions by 
@@ -68,7 +68,7 @@ using more efficient insulation techniques for the house. In the current version
 types of housing and automobile investments: energy saving housing and “comfort” housing 
 investments; low and high oil consumption cars.<br>
 &nbsp &nbsp &nbsp In Three-ME, efficiency and sobriety phenomena decrease the consumer price since the 
-share of energy into consumption decreases (see Section V ). This allows for directly 9
+share of energy into consumption decreases <!-- (see Section V ) -->. This allows for directly 9
 capturing the so-called “rebound effect” in consumption behaviour often observed at the 
 micro level (Bentzen, 2004; Sorrell and al., 2009). There is a rebound effect when the 
 effective energy saving from an investment in energy efficiency is less than the energy saving 
