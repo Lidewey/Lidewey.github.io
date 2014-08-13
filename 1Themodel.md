@@ -56,7 +56,7 @@ intensive. The decrease of the use of transport by road would be the most typica
 <a name="Table1">Table 1</a>: Sector disaggregation in Three-ME <br><br>
 <img src="/images/Table1.jpg" alt="Three-ME" width="650" height="700"> <br>
 <p>
-Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
+&nbsp &nbsp &nbsp Three-ME accounts also for endogenous energy efficiency and sobriety effects. In 
 contrast with the substitution mechanisms, the reduction of a given energy consumption does 
 not imply the increase of the use of another energy. Sobriety consists in refraining from 
 consuming energy by for instance staying home during the weekend instead of taking the car 
