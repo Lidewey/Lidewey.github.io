@@ -93,5 +93,5 @@ same rate as the technical progress. All prices grow at the rate of inflation wh
 the exogenous rate of inflation in the rest of the world. The endogenous dynamic of the model 
 is determined by capital accumulation of households and firms, the specification of the 
 anticipation and of the adjustment dynamic.</p>
-To read mode about the technical part of Three-ME, go to <a href="http://lidewey.github.io/4Download/">Download</a>. <br><br>
+To read mode about the technical part of Three-ME, <a href="http://lidewey.github.io/4Download/">download</a> the full description of the Three-ME model. <br><br>
 <a href="#">Go back up</a>
