@@ -21,7 +21,7 @@ Organizing Institution: University College Cork <br>
 Content: Methodologies linking energy system models and economics models 
 <br>
 
-<br> <a href="http://lidewey.github.io/2014/05/13/Presentation-des-variations-effectuees/">Presentation Indonesia BAPPENAS</a> <br>
+<br> <a href="http://lidewey.github.io/2014/03/14/Presentation-Indonesia-BAPPENAS/">Presentation Indonesia BAPPENAS</a> <br>
 14 Mar 2014 - Jakarta <br>
  Organizing Institution:  AFD <br>
  Content: The Indonesia Energy and Economy (IEE) Project: Presentation of the ThreeME model <br>
