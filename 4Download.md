@@ -4,7 +4,7 @@ title: Download
 ---
 
 
-<p> Download the application/pdf <br>
+<p> <!-- Download the application/pdf <br> -->
 Presentation of the Three-ME model: <i>"Multi-sector Macroeconomic Model for the Evaluation of Environmental and Energy policy" </i>/ Frédéric Reynès, Yasser Yeddir-Tamsamani and Gaël Callonnec. Paris : OFCE, May 2011, 97 p. (Document de travail ; n° 2011-10)<br>
 File URL: <a href="http://www.ofce.sciences-po.fr/pdf/dtravail/WP2011-10.pdf">http://www.ofce.sciences-po.fr/pdf/dtravail/WP2011-10.pdf</a> <br>
 Download restrictions: no<br>
