@@ -63,7 +63,21 @@
         </article>
       </div>
       <p>Paragragh..</p>
+
+      <!-- Show list of posts -->
        
+       <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- End showing posts -->
+
+
           </div>
         </div>
       </div>
