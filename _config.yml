@@ -1,0 +1,26 @@
+
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+_config.yml
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Three-ME
+tagline:          'ADEME OFCE IVM'
+# description:      'Menu'
+# url:              http://lanyon.getpoole.com
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Lidewey van der Wal'
+  url:            https://twitter.com/mdo
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com
