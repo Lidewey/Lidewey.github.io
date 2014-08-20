@@ -7,7 +7,11 @@
      <h1><a class="logo" href="index.html"><span class="underline">Three-ME</span></a></h1>
       <nav>
         <ul class="sf-menu sf-js-enabled">
-          <li class="current"><a href="index.html">Home</a></li>
+
+           <li class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">Home</a></li>
+          <li class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            
+       <!--    <li class="current"><a href="index.html">Home</a></li>
           <li><a href="themodel.html">The model</a></li>
           <li> <a href="javascript:" class="sf-with-ul">Events<span class="menu-arrow"> »</span></a>
             <ul style="display: none;">
@@ -22,7 +26,7 @@
               <li><a href="blog-single.html">Blog Single</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li> -->
         </ul>
       <select><option selected="selected" value="">Please choose page</option><option value="index.html">Home</option><option value="themodel.html">The model</option><option value="javascript:">Events »</option><option value="components.html">-----Components</option><option value="404.html">-----404</option><option value="faq.html">-----FAQ</option><option value="javascript:">Download »</option><option value="blog.html">-----Blog</option><option value="blog-single.html">-----Blog Single</option><option value="contact.html">Contact</option></select></nav>
       <div class="clear"></div>
