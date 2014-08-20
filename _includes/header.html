@@ -4,6 +4,7 @@
 
     <!--==============================header=================================-->
 <!-- Need automatic and active nav bar -->
+
    <!--   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="http://lidewey.github.io/">Home</a>
   
@@ -24,12 +25,14 @@
     {% endfor %}
   </nav> -->
 
+
+
     <header class="homepage">
      <h1><a class="logo" href="index.html"><span class="underline">Three-ME</span></a></h1>
       <nav>
         <ul class="sf-menu sf-js-enabled">
-          <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="themodel.html">The model</a></li>
+          <li class="current{% if page.url == index.html %}"><a href="index.html">Home</a></li>
+          <li class="current{% if page.url == themodel.html %}"><a href="themodel.html">The model</a></li>
           <li><a href="test.html">Test</a></li>
           <li> <a href="javascript:" class="sf-with-ul">Events<span class="menu-arrow"> »</span></a>
             <ul style="display: none;">
