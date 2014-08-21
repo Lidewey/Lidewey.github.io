@@ -80,7 +80,7 @@ padding: 5px 10px;
 	padding-left: 0px;
 	text-shadow: none;
 	padding: 3px 12px; }
-.sf-menu li li a:hover, .sf-menu li li.sfHover>a{ color:#ebdf1b; background:#E35845; }
+.sf-menu li li a:hover, .sf-menu li li.sfHover>a{ color:#ebdf1b; background:#12212f; }  /*change color from orange to navyblue*/
 
 .sf-menu .menu-arrow{display:none;}
 @media only screen and (max-width: 995px) {
