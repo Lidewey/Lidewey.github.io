@@ -11,8 +11,10 @@ nav{ position:relative; margin: 0px -15px 0 0; padding:2px 0 0 0; float:right;}
 border-radius: 3px;
 padding: 5px 10px;
 	color:#fff;
+
 	
 	}
+	.sf-menu li li a:hover, .sf-menu li li.sfHover>a{ color:#ebdf1b; background:#12212f; }
 .sf-menu>li.sfHover>a>span.sf-sub-indicator{width:13px;height:12px; display:block; left:19px; top:27px; position:absolute; background:url(../images/nav_cut1.png) no-repeat;}
 .sf-menu li ul li.sfHover>a>span.sf-sub-indicator{width:12px;height:13px; display:block; right:-13px; bottom:7px; position:absolute; background:url(../images/nav_cut2.png) no-repeat;}
 /*================================>> 2 Level <<========================================*/

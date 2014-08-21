@@ -128,7 +128,7 @@ a {
 	cursor: pointer;
 }
 a:hover {
-	color: #E35845;
+	color: #62676d;
 	text-decoration: none;
 }
 a.arrowlink {
@@ -278,7 +278,7 @@ header .logo .underline:hover {
 	color: #EBDF1B;
 }
 .homeabout a:hover {
-	color: #ebdf1b;
+	color: #381511;
 }
 .homeabout h3.sub-tagline {
 	color: #fff;
