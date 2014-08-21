@@ -1172,14 +1172,14 @@ Blog
 	color: #fff;
 }
 .post-meta .comments {
-	background: #12212f;
+	background: #ebdf1b;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .post-meta .comments:hover {
 	background: #fff;
-	color: #12212f;
+	color: #ebdf1b;
 }
 .post-meta .comments:hover a {
 	color: #ebdf1b;
