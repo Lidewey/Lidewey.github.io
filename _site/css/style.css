@@ -122,12 +122,12 @@ strike {
 	border: 1px solid #e19c9c;
 }
 a {
-	color: #E35845;
+	color: #12212f;   /*background color header*/
 	outline: none;
 	text-decoration: none;
 	cursor: pointer;
 }
-a:hover {
+a:hover {   
 	color: #62676d;
 	text-decoration: none;
 }
@@ -158,7 +158,7 @@ a.arrowlink:hover {
 }
 .button:hover {
 	color: white;
-	background: #E35845;
+	background: #E35845;  /*hover over the menu bar*/
 }
 .button.small {
 	font-size: 12px;
