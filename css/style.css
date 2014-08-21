@@ -278,7 +278,7 @@ header .logo .underline:hover {
 	color: #EBDF1B;
 }
 .homeabout a:hover {
-	color: #381511;
+	color: #ebdf1b;
 }
 .homeabout h3.sub-tagline {
 	color: #fff;
@@ -300,7 +300,7 @@ header .logo .underline:hover {
 	margin-right: 5px;
 }
 .breadcrumb a {
-	color: #E35845;
+	color: #12212F;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
