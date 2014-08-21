@@ -122,7 +122,7 @@ strike {
 	border: 1px solid #e19c9c;
 }
 a {
-	color: #E35845;
+	color: #12212f;  
 	outline: none;
 	text-decoration: none;
 	cursor: pointer;
@@ -346,7 +346,7 @@ h2.ind2 {
 	padding: 96px 0 96px 0 !important;
 }
 .block1 {
-	background: #e35845;
+	background: #12212f;
 }
 .block2 {
 	background: url(../images/block2.jpg) 50% 0 repeat-x #fff;
@@ -392,7 +392,7 @@ Home
 	margin-bottom: 0px !important;
 }
 .featured_block {
-	background: #e35845;
+	background: #12212f;
 }
 .featured_block h2 {
 	color: #fff;
@@ -601,7 +601,7 @@ Featured Work Services Page
 	width: 100%;
 }
 .featured-work-services img:hover {
-	border-color: #E35845;
+	border-color: #12212f;
 	opacity: 0.8;
 }
 .prev, .next {
@@ -719,7 +719,7 @@ Our Team
 	width: 100%;
 }
 .our_team img:hover {
-	border-color: #E35845;
+	border-color: #12212f;
 	opacity: 0.7;
 }
 .team_skills {
@@ -907,7 +907,7 @@ span.zoom-bg {
 	color: #62676D;
 }
 .entry a:hover {
-	color: #E35845;
+	color: #12212f;
 }
 .entry-title {
 	margin-top: 0px;
@@ -934,7 +934,7 @@ Hire us
 ========================================================
 */
 .required {
-	color: #e35845;
+	color: #12212f;
 }
 .hireform {
 }
@@ -1143,7 +1143,7 @@ Blog
 	display: inline-block;
 }
 .post img:hover {
-	border-color: #E35845;
+	border-color: #12212f;
 	opacity: 0.8;
 }
 .post {
@@ -1172,17 +1172,17 @@ Blog
 	color: #fff;
 }
 .post-meta .comments {
-	background: #E35845;
+	background: #12212f;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .post-meta .comments:hover {
 	background: #fff;
-	color: #E35845;
+	color: #12212f;
 }
 .post-meta .comments:hover a {
-	color: #E35845;
+	color: #12212f;
 }
 .widget {
 	margin-top: 48px;
@@ -1436,7 +1436,7 @@ Tabs
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
 	padding-bottom: 1px;
 	border-bottom-width: 0;
-	background: #E35845;
+	background: #12212f;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
 	cursor: text;
@@ -1473,7 +1473,7 @@ jQuery UI Progress bar
 }
 .ui-progressbar-value {
 	border-radius: 0px;
-	background: #E35845;
+	background: #12212f;
 	border: 0;
 	height: 1.2em !important;
 }
