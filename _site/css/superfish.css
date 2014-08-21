@@ -11,6 +11,7 @@ nav{ position:relative; margin: 0px -15px 0 0; padding:2px 0 0 0; float:right;}
 border-radius: 3px;
 padding: 5px 10px;
 	color:#fff;
+
 	
 	}
 .sf-menu>li.sfHover>a>span.sf-sub-indicator{width:13px;height:12px; display:block; left:19px; top:27px; position:absolute; background:url(../images/nav_cut1.png) no-repeat;}
