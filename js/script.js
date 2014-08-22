@@ -22,7 +22,7 @@ $(function () {
 });
 
 $("a[href*='" + location.pathname + "']").addClass("current");
-}).addClass("current");
+
 
 
 
