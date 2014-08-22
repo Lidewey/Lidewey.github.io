@@ -21,8 +21,8 @@ $(function () {
     }
 });
 
-l=$("a[href*='" + location.pathname + "']").addClass("current");
-$( "l" ).addClass( "current" );
+var l=$("a[href*='" + location.pathname + "']").addClass("current");
+l.addClass( "current" );
 
 
 
