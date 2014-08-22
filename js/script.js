@@ -21,6 +21,10 @@ $(function () {
     }
 });
 
+
+// Attemps active nav bar 
+
+
 // l=$("a[href*='" + location.pathname + "']").addClass("current");
 // l.addClass( "current" );
 
