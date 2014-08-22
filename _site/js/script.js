@@ -22,8 +22,8 @@ $(function () {
 });
 
 $("a[href*='" + location.pathname + "']").addClass("current");
-}).addClass("current");
-});
+
+
 
 
 //Dynamically adds drop down for smaller screens.
