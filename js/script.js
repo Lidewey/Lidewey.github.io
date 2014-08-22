@@ -32,7 +32,7 @@ $(function () {
 // l.addClass( "current" );
 
 $("a[href*='" + location.pathname + "']").addClass("current");
-$( "a" ).addClass( "current" );
+// $( "a" ).addClass( "current" );
 
 // $("a[href*='" + location.pathname + "']").addClass("current");
 
