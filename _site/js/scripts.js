@@ -2,6 +2,8 @@
 /*	SLIDER
 /*-----------------------------------------------------------------------------------*/ 
 
+$("a[href*='" + location.pathname + "']").addClass("current");
+
 $(document).ready(function() {
 				
 				if ($.fn.cssOriginal!=undefined)
