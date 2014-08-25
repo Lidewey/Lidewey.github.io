@@ -1,16 +1,16 @@
 $(function () {
     // IPad/IPhone
     var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),
-	ua = navigator.userAgent,
+    ua = navigator.userAgent,
 
-	gestureStart = function () { viewportmeta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6"; },
+    gestureStart = function () { viewportmeta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6"; },
 
-	scaleFix = function () {
-	    if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) {
-	        viewportmeta.content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
-	        document.addEventListener("gesturestart", gestureStart, false);
-	    }
-	};
+    scaleFix = function () {
+        if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) {
+            viewportmeta.content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+            document.addEventListener("gesturestart", gestureStart, false);
+        }
+    };
 
     scaleFix();
     // Menu Android
@@ -21,20 +21,7 @@ $(function () {
     }
 });
 
-
-// Attemps active nav bar 
-
-
-// l=$("a[href*='" + location.pathname + "']").addClass("current");
-// l.addClass( "current" );
-
-// var l=$("a[href*='" + location.pathname + "']").addClass("current");
-// l.addClass( "current" );
-
 $("a[href*='" + location.pathname + "']").addClass("current");
-// $( "a" ).addClass( "current" );
-
-// $("a[href*='" + location.pathname + "']").addClass("current");
 
 
 //Dynamically adds drop down for smaller screens.
@@ -259,19 +246,19 @@ try {
             width: 400,
             modal:true,
             buttons: [
-				{
-				    text: "Ok",
-				    click: function () {
-				        $(this).dialog("close");
-				    }
-				},
-				{
-				    text: "Cancel",
-				    click: function () {
-				        $(this).dialog("close");
-				    }
-				}
-			]
+                {
+                    text: "Ok",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                },
+                {
+                    text: "Cancel",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            ]
         });
 
       
