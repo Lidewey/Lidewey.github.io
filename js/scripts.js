@@ -4,6 +4,7 @@
 
 l=$("a[href*='" + location.pathname + "']").addClass("current");
 l.addClass("current");
+
 $(document).ready(function() {
 				
 				if ($.fn.cssOriginal!=undefined)
