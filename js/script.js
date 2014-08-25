@@ -233,7 +233,7 @@ try {
         $("#accordion").accordion();
         $("#tabs").tabs();
         $("#progressbar").progressbar({
-            value: 60
+            value: 40
         });
         // Link to open the dialog
         $("#dialog-link").click(function (event) {
