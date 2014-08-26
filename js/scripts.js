@@ -2,9 +2,9 @@
 /*	SLIDER
 /*-----------------------------------------------------------------------------------*/ 
 
-$( document ).ready(function() {
+$( document ).ready(function(var) {
    
-$("a[href*='" + location.pathname + "']").addClass("current");
+var $("a[href*='" + location.pathname + "']").addClass("current");
 
 });
 
