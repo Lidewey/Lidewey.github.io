@@ -4,9 +4,17 @@
 
 $( document ).ready(function() {
 
- var l=$("a[href*='" + location.pathname + "']").addClass("current");
+ l=$("a[href*='" + location.pathname + "']").addClass("current");
  l.addClass("current");
 });	
+
+
+
+// $( document ).ready(function() {
+
+//  var l=$("a[href*='" + location.pathname + "']").addClass("current");
+//  l.addClass("current");
+// });	
 
 // $( document ).ready(function() {
 //     console.log( "ready!" );
