@@ -2,7 +2,7 @@
 /*	SLIDER
 /*-----------------------------------------------------------------------------------*/ 
 
-$( document ).ready(function($) {
+$( document ).ready(function() {
    
 $("a[href*='" + location.pathname + "']").addClass("current");
 
