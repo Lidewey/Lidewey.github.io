@@ -3,10 +3,10 @@
 /*-----------------------------------------------------------------------------------*/ 
 
 $( document ).ready(function(var) {
-   
-var $("a[href*='" + location.pathname + "']").addClass("current");
 
-});
+ $("a[href*='" + location.pathname + "']").addClass("current");
+
+});	
 
 // $( document ).ready(function() {
 //     console.log( "ready!" );
