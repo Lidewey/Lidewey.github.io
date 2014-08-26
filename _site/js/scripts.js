@@ -5,7 +5,7 @@
 $( document ).ready(function() {
 
  $("a[href*='" + location.pathname + "']").addClass("current");
-
+return true;
 });	
 
 // $( document ).ready(function() {
