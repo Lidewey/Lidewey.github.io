@@ -124,7 +124,7 @@ strike {
 }
 a {
 	color: #000000; 
-	text-decoration: bold 
+	font-weight: bold; 
 	outline: none;
 	text-decoration: none;
 	cursor: pointer;
