@@ -9,6 +9,10 @@ $("a[href*='" + location.pathname + "']").addClass("current");
 // l.addClass("current");
 });
 
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
 $(document).ready(function() {
 				
 				if ($.fn.cssOriginal!=undefined)
