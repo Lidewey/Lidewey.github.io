@@ -4,11 +4,9 @@
 
 $( document ).ready(function() {
 
- l=$("a[href*='" + location.pathname + "']").addClass("current");
- l.addClass("current");
+ $("a[href*='" + location.pathname + "']").addClass("current");
+ 
 });	
-
-
 
 // $( document ).ready(function() {
 
