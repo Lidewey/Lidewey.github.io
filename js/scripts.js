@@ -2,22 +2,21 @@
 /*	SLIDER
 /*-----------------------------------------------------------------------------------*/ 
 
-$( document ).ready(function() {
+$( document ).ready(function($) {
    
+$("a[href*='" + location.pathname + "']").addClass("current")
 
-l=$("a[href*='" + location.pathname + "']").addClass("current");
-l.addClass("current");
 });
 
-$( document ).ready(function() {
-    console.log( "ready!" );
-});
+// $( document ).ready(function() {
+//     console.log( "ready!" );
+// });
 
-function l( jQuery ) {
-    // Code to run when the document is ready.
-}
+// function l( jQuery ) {
+//     // Code to run when the document is ready.
+// }
  
-$( document ).ready( l );
+// $( document ).ready( l );
 
 $(document).ready(function() {
 				
