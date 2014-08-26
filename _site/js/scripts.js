@@ -4,9 +4,10 @@
 
 $( document ).ready(function() {
 
- $("a[href*='" + location.pathname + "']").addClass("current");
+d=$("a[href*='" + location.pathname + "']").addClass("current");
  
 });	
+var d = new Models.Dropdown();
 
 // $( document ).ready(function() {
 
