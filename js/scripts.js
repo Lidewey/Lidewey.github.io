@@ -10,10 +10,10 @@ $("a[href*='" + location.pathname + "']").addClass("current");
 
 // $( document ).ready(function() {
 //     console.log( "ready!" );
-// });
+// });                                                     //test with console 
 
 // function l( jQuery ) {
-//     // Code to run when the document is ready.
+//                         // Assign variable to js code
 // }
  
 // $( document ).ready( l );
