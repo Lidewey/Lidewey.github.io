@@ -7,7 +7,8 @@ $( document ).ready(function() {
 d=$("a[href*='" + location.pathname + "']").addClass("current");
  
 });	
-var d = new Models.Dropdown();
+// var d = new .addClass("current");   activate the class
+
 
 // $( document ).ready(function() {
 
