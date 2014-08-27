@@ -6,11 +6,12 @@ $( document ).ready(function() {
 
  var curpage = $("a[href*='" + location.pathname + "']").addClass("current");
 
- curpage.addClass("current");
+ curpage.("current");
 
  $( "ul li" ).filter( ".current" );
 
 });	
+
 // var d = new .addClass("current");   activate the class
 
 
