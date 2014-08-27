@@ -48,9 +48,13 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-.active { background-color: #000; }
-/* to override the existing css for "a" tag */
-#sub-header .active a{ color: #fff; }
+/*.active { background-color: #000; }
+ to override the existing css for "a" tag 
+#sub-header .active a{ color: #fff; }*/
+#navigation li a.current{
+   color: #ffffff;
+   background:#f1d74c;
+}
 
 p {
 	margin-bottom: 24px
