@@ -4,8 +4,10 @@
 
 $( document ).ready(function() {
 
-d=$("a[href*='" + location.pathname + "']").addClass("current");
- 
+ var curpage = $("a[href*='" + location.pathname + "']").addClass("current");
+
+ $( "ul li" ).filter( ".current" );
+
 });	
 // var d = new .addClass("current");   activate the class
 
