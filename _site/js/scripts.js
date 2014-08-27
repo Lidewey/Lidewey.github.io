@@ -7,13 +7,13 @@ $( document ).ready(function() {
  function blabla(){
 
  	$("a[href*='" + location.pathname + "']").addClass("current");
-}
+});
 
- blabla();
+ blabla();  //call the function
 
  // $( "ul li" ).filter( ".current" );
 
-});	
+
 
 // $(function(){
 //     // this will get the full URL at the address bar
