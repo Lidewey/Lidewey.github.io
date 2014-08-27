@@ -2,28 +2,28 @@
 /*	SLIDER
 /*-----------------------------------------------------------------------------------*/ 
 
-$( document ).ready(function() {
+// $( document ).ready(function() {
 
- var curpage = $("a[href*='" + location.pathname + "']").addClass("current");
+//  var curpage = $("a[href*='" + location.pathname + "']").addClass("current");
 
- curpage.("current");
+//  curpage.("current");
 
- $( "ul li" ).filter( ".current" );
+//  $( "ul li" ).filter( ".current" );
 
-});	
+// });	
 
-// $(function(){
-//     // this will get the full URL at the address bar
-//     var url = window.location.href; 
+$(function(){
+    // this will get the full URL at the address bar
+    var url = window.location.href; 
 
-//     // passes on every "a" tag 
-//     $("#sub-header a").each(function() {
-//             // checks if its the same on the address bar
-//         if(url == (this.href)) { 
-//             $(this).closest("li").addClass("active");
-//         }
-//     });
-// });
+    // passes on every "a" tag 
+    $("#sub-header a").each(function() {
+            // checks if its the same on the address bar
+        if(url == (this.href)) { 
+            $(this).closest("li").addClass("active");
+        }
+    });
+});
 
 // var d = new .addClass("current");   activate the class
 
