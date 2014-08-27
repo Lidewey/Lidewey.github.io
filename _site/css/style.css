@@ -47,6 +47,11 @@ body {
 	background: #12212f;
 	-webkit-text-size-adjust: none;
 }
+
+.active { background-color: #000; }
+/* to override the existing css for "a" tag */
+#sub-header .active a{ color: #fff; }
+
 p {
 	margin-bottom: 24px
 }
