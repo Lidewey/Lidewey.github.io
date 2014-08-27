@@ -5,7 +5,7 @@
 $( document ).ready(function() {
 
  var curpage = $("a[href*='" + location.pathname + "']").addClass("current");
-
+$("current");
  $( "ul li" ).filter( ".current" );
 
 });	
