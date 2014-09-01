@@ -11,11 +11,15 @@
 
 //  blabla();  //call the function
 
-$( document ).ready(function() {
+// $( document ).ready(function() {
 
-  	$("a[href*='" + location.pathname + "']").addClass("current");
+//   	$("a[href*='" + location.pathname + "']").addClass("current");
+// });
+
+
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('current');
 });
-
  // $( "ul li" ).filter( ".current" );
 
 
