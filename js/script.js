@@ -21,7 +21,6 @@ $(function () {
     }
 });
 
-$("a[href*='" + location.pathname + "']").addClass("current");
 
 
 //Dynamically adds drop down for smaller screens.
@@ -57,11 +56,17 @@ $(function ($) {
         }).appendTo("nav select");
     });
 
+
     $('nav select').change(function () {
 
         window.location.href = this.value;
 
     });
+});
+
+$( document ).ready(function() {
+
+    $("a[href*='" + location.pathname + "']").addClass("current");
 });
 
 //Home page related scripts
