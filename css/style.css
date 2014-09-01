@@ -52,15 +52,11 @@ body {
  to override the existing css for "a" tag 
 #sub-header .active a{ color: #fff; }*/
 
-#navigation li a.current{
+li a.current{
    color: #ffff00;
    background:#f1d74c;
 }
 
-#navigation li a.active{
-   color: #ffff00;
-   background:#f1d74c;
-}
 
 p {
 	margin-bottom: 24px
