@@ -18,7 +18,7 @@ $( document ).ready(function() {
 
 
 $(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass("active");
 });
 
  // $( "ul li" ).filter( ".current" );
