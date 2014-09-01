@@ -1,52 +1,7 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Three-ME | Home</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width; initial-scale=1.0">
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js/home-slider01.js"></script>
-<script type="text/javascript" src="js/home-slider02.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="js/html5shiv.js"></script>
-<!--[if lt IE 8]>
-   <div style=' clear: both; text-align:center; position: relative;'>
-     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-    </a>
-  </div>
-<![endif]-->
-<!--[if lt IE 9]>
-    <script type="text/javascript" src="js/html5.js"></script>
-      <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-    <![endif]-->
-</head>
-<body>
-<div class="block1 p_bottom_zero">
-  <div class="container_12"> 
-    <!--==============================header=================================-->
-    <header class="homepage">
-     <h1><a class="logo" href="index.html"><span class="underline">Three-ME</span></a></h1>
-      <nav>
-        <ul class="sf-menu">
-          <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="themodel.html">The model</a></li>
-           <li><a href="test.html">Events</a></li>
-                   <li><a href="javascript:">Download</a>
-            <ul>
-              <li><a href="blog.html">Presentation Three-ME</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <li><font color="#ffffff">{{ site.time | date_to_long_string }}</font></li>
-      </nav>
-      <div class="clear"></div>
-    </header>
-  </div>
-</div>
+---
+layout: default 
+title: What is Three-ME?
+---
 <div class="block2">
   <div class="container_12"> 
     <!--==============================content================================-->
@@ -59,8 +14,7 @@
         <div class="row clearfix">
           <article class="grid_8">
             <div class="post">
-
-              <p>Three-ME (Multi-sector Macroeconomic Model for the Evaluation of Environmental 
+ <p>Three-ME (Multi-sector Macroeconomic Model for the Evaluation of Environmental 
 and Energy policy) is a new model of the French economy developed by ADEME, OFCE and 
 TNO. This new model is an improved version of the previous model (Callonnec et al., 2011; Reynes et al. 2011). Its main purpose is to evaluate the medium and long term impact of environmental and energy policy measures on the economy at the macroeconomic and sectoral levels. To do so, Three-ME combines two important features. Firstly, it has the main characteristics of neo-Keynesian models by assuming a slow adjustment of effective quantities and prices to their notional level, an endogenous money supply, a Taylor rule and a Philips curve. Compared to standard multi-sector CGEMs, this has the advantage to allow for the existence of under-optimum equilibriums such as the presence of involuntary unemployment. <!-- The following part till "secondly" is not part of the abstract anymore. --> <!-- However, this effort seems to have a cost in terms of the dissagregation level which is often limited. This is typically the case for currently running macroeconomic models for the French economy: e.g. MESANGE of the French ministry of Economy has three sectors (Allerd-Prigent et al., 2002), E-Mod of the OFCE (Chauvin et al., 2002) and MASCOTTE of the French central bank (Baghli et al., 2004) have only one. However, earlier versions of these models in the 1980's and 1990's had a higher level of dissagregation, between 6 and 8 products (see Economie et PrÃ©vision, 1998). But still, neo-Keynesian macroeconomic models generally do not distinguish between the different types of energy or of transport which are particularly important for the assessment of environmental and energy policy. They are thus likely to neglect the effect of activity transfers in terms of growth and employment from high to low intensive energy setors. <br> A second limit particularly important for the analysis of the economic impact of environmental and energy policy is that CGEM provide insufficient reprentation of endogenous energy efficiency phenomena. For instance, households consomption behaviors are generally represented through a nested structure of utility functions which defines a simple correlation between the level of consumption of each good and the revenue. The model does not include saturation point in the consumption of the households. The link between consumption and revenue leads to a 1% increase in the consumption of each good. To account for non-linearities, it is usual to introduce a Linear Expenditure System (LES) utility function. A LES specification assumes that a share of the base year consumtion is incompressible and therefore the relation between income and consumption is not linear anymore. This specification allows for the distinction between consumption of necessity and luxurious goods. --> Secondly, <!-- Secondly, Three-ME is a hybrid model in the sense that it combines the top-down approach of general equilibrium macroeconomic models with elements of bottom-up models of energy models developed by engineers. As in bottom-up models, the amount of energy consumed is related to their use, that is the number of buildings and cars,a nd the energy class to which they belong. This hypothesis is more realistic compared to the assumption made in the majority of of top-down models where energy consumption is usually directly related to income through a nested structure of utility function.   --> production and consumption structures are represented with a generalized CES function which allows for the elasticity of substitution to differ between each couple of inputs or goods.  This is an improvement compared to the standard approach that uses nested CES functions which has the disadvantage to impose a common elasticity of substitution between the goods located in two different nested structures. <br>
 </p>
@@ -97,64 +51,3 @@ the Broyden algorithm. <br>
     </section>
   </div>
 </div>
-
-<div class="block3">
-  <div class="container_12">
-    <footer>
-      <div class="wrapper">
-
-          <div class="grid_6">
-          <h2>Copyright</h2>
-          <!-- This includes all content and original design work, including the distinctive typographic style, layout and composition of this website. -->© OFCE 2014<br>
-All Rights Reserved<br>
-No part of this website or any of its contents may be reproduced, copied, modified or adapted, without the prior written consent of the author.
-</div>
-        <div class="grid_3">
-           <h2>Navigate</h2>
-          <ul class="navigate">
-            <li><a href="http://lidewey.github.io/index.html">Home</a></li>
-            <li><a href="http://lidewey.github.io/themodel.html">The model</a></li>
-            <li><a href="http://lidewey.github.io/test.html">Events</a></li>
-            <li><a href="http://lidewey.github.io/blog.html">Download</a></li>
-            <li><a href="http://lidewey.github.io/contact.html">Contact</a></li>
-          </ul>
-          
-        </div>
-      
-        <div class="grid_3 last-col">
-          <h2>Contact</h2>
-          
-          <ul class="social">
-            <!-- <li> <a href="#">
-    <figure><img src="images/soc1.png" width="31" height="24" alt=""><img src="images/blog.png" width="31" height="24" alt=""></figure> Follow us on Twitter</a>
-    </li> -->
-    OFCE <br>
-69 quai d'Orsay <br>
-75007 Paris <br>
-<li class="cont_item m_bottom_zero"> <a href="http://lidewey.github.io/contact.html">Contact Us</a>
-    <figure><a href="http://lidewey.github.io/contact.html"><img src="images/soc4.png" width="31" height="20" alt=""></figure>  </li>
-           <!--  <li> <a href="#">
-    <figure> <img src="images/soc2.png" width="31" height="26" alt=""> <img src="images/icon-plan.png" width="31" height="24" alt=""></figure><a href="mailto: gael.callonnec@ademe.fr">Write us</a></li>
-            <li> <a href="#">
-    <figure><img src="images/soc3.png" width="31" height="26" alt=""></figure>
-    Subscribe to our blog</a> </li>
-            <li class="cont_item m_bottom_zero"> <a href="mailto: gael.callonnec@ademe.fr">Contact Us</a>
-    <figure><a href="http://lidewey.github.io/contact.html"><img src="images/soc4.png" width="31" height="20" alt=""></figure>  </li> -->
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </div>
-</div>
-
-
-<script type="text/javascript" src="js/superfish.js"></script> 
-<script type="text/javascript" src="js/jquery.responsivemenu.js"></script> 
-<script type="text/javascript" src="js/jquery.flexslider.js"></script> 
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
-<script src="js/jquery.carouFredSel-6.1.0-packed.js" type="text/javascript"></script> 
-<script src="js/contact.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/script.js"></script>
-
-</body>
-</html>
