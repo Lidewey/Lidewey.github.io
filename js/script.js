@@ -64,10 +64,6 @@ $(function ($) {
     });
 });
 
-$( document ).ready(function() {
-
-    $("a[href*='" + location.pathname + "']").addClass("current");
-});
 
 //Home page related scripts
 try {
