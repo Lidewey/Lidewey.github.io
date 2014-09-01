@@ -2,16 +2,19 @@
 /*	SLIDER
 /*-----------------------------------------------------------------------------------*/ 
 
+// $( document ).ready(function() {
+
+//  function blabla(){
+
+//  	$("a[href*='" + location.pathname + "']").addClass("current");
+// });
+
+//  blabla();  //call the function
+
 $( document ).ready(function() {
 
- function blabla(){
-
- 	$("a[href*='" + location.pathname + "']").addClass("current");
+  	$("a[href*='" + location.pathname + "']").addClass("current");
 });
-
- addClass("current").blaba();
-   //call the function
-
  // $( "ul li" ).filter( ".current" );
 
 
