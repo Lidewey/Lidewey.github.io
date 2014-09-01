@@ -9,7 +9,8 @@ $( document ).ready(function() {
  	$("a[href*='" + location.pathname + "']").addClass("current");
 });
 
- blabla();  //call the function
+ addClass("current").blaba();
+   //call the function
 
  // $( "ul li" ).filter( ".current" );
 
