@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-<div class="post">
-<div>{{ page.excerpt | textilize }} </div>   <!-- To transform textile format to html -->
+<!-- <div class="post">
+<div>{{ page.excerpt | textilize }} </div>   <!-- To transform textile format to html 
 
-
-    <!-- <h2 class="post-title">{{ page.title }}</h2> -->
+    <h2 class="post-title">{{ page.title }}</h2> 
   <span class="post-date">{{ page.date | date_to_string }}</span>
 
   <p>{{ content }}</p>
@@ -25,8 +24,9 @@ layout: default
         </h4>
          {% endfor %}
   </ul>
-</div>
-
-<!-- <div class="post">
-  <p>{{ content }}</p>
 </div> -->
+
+<div>{{ page.excerpt | textilize }} </div>
+<div class="post">
+  <p>{{ content }}</p>
+</div>
