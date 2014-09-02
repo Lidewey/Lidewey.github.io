@@ -2,12 +2,17 @@
 layout: default
 ---
 
-{{ page.excerpt | textilize }}
+{{ page.excerpt | textilize }}    <!-- To transform textile format to html -->
+
 <div class="post">
     <!-- <h2 class="post-title">{{ page.title }}</h2> -->
   <span class="post-date">{{ page.date | date_to_string }}</span>
+
   <p>{{ content }}</p>
+
 </div>
+
+
 <div class="related">
   <h3>Related events</h3>
   <ul class="related-posts">
