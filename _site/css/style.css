@@ -54,7 +54,7 @@ body {
 
 li a.current{
    color: #acb2b6;
-   background:#ffffff;
+   background:transparent;
 }
 
 
@@ -1448,7 +1448,7 @@ Tabs
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
 	padding-bottom: 1px;
 	border-bottom-width: 0;
-	background: #12212f;
+	background: #082441;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
 	cursor: text;
@@ -1478,14 +1478,14 @@ jQuery UI Progress bar
 ========================================================
 */
 .ui-progressbar {
-	background: #12212F;
+	background: #082441;
 	border-radius: 4px;
 	border: 0;
 	height: 1em;
 }
 .ui-progressbar-value {
 	border-radius: 0px;
-	background: #12212f;
+	background: #082441;
 	border: 0;
 	height: 1.2em !important;
 }
