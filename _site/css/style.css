@@ -53,7 +53,7 @@ body {
 #sub-header .active a{ color: #fff; }*/
 
 li a.current{
-   color: #5A87A7;
+   color: #80909B;
    background:transparant;
 }
 
@@ -164,13 +164,13 @@ a.arrowlink:hover {
 	border: 0px;
 	border: none;
 	cursor: pointer;
-	background: #082441;
+	background: #12212f;
 	border-radius: 3px;
 	color: #fff;
 }
 .button:hover {
 	color: white;
-	background: #E35845;
+	background: #F9C0A7;
 }
 .button.small {
 	font-size: 12px;
@@ -1651,7 +1651,7 @@ footer .navigate li {
 	width: 50%;
 }
 footer .navigate a:hover {
-	color: #f5d12f;
+	color: #F9C0A7;
 }
 nav ul {
 	display: block;
