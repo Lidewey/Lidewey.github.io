@@ -572,3 +572,436 @@ No part of this website or any of its contents may be reproduced, copied, modifi
 </html>
 
 
+
+<!-- 
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+
+            <a href="/"><img src="/images/ThreeME6.jpg" alt="Three-ME" width="200" height="75"></a>
+           
+
+
+            <a href="/" title="Home"></a>
+            <small> </small>
+           
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <p>            <article class="grid_8">
+            <div class="post">
+               <ul>
+  
+    <li>
+      <a href="/2014/05/13/Pr%E9sentation-des-variantes-effectu%E9es-%E0-l'aide-de-Three-ME.html">Présentation des variantes effectuées à l'aide de Three-ME</a>
+      <p>Blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/05/13/Presentation-Negawatt.html">Presentation Negawatt</a>
+      <p>blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/03/14/Presentation-Indonesia-BAPPENAS.html">Presentation Indonesia BAPPENAS</a>
+      <p>blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/02/14/ETSAP-UCC-Workshop.html">ETSAP-UCC Workshop</a>
+      <p>blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/02/13/Workshop-Macroeconomic-Modeling.html">Workshop Macroeconomic Modeling</a>
+      <p>blabla</p>
+
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/02/13/Modeling-Workshop.html">Modeling Workshop</a>
+      <p>blabla</p>
+
+
+
+    </li>
+  
+</ul>
+<!-- 
+
+     <b>  <a name="Présentation_des_variantes_effectuées_à_l'aide_de_ThreeME">Présentation des variantes effectuées à l'aide de Three-ME</a></b> <br>    13 May 2014 - Paris <br>
+Organizing Institution: Bercy <br> <br>
+
+    <b>    <a name="Presentation_Negawatt">Presentation Negawatt</a> </b> <br>    13 May 2014 - Paris <br>
+  Organizing Institution: Negawatt <br>
+Content: Simulation du scénario Négawatt à l'aide du modèle Three-ME
+<br> <br> 
+
+ <b>   <a name="Presentation_Indonesia_BAPPENAS">Presentation Indonesia BAPPENAS</a></b>  <br>  
+             14 Mar 2014 - Jakarta <br>
+ Organizing Institution:  AFD <br>
+ Content: The Indonesia Energy and Economy (IEE) Project: Presentation of the Three-ME model <br> <br>
+
+        <b>   <a name="ETSAP-UCC_Workshop">ETSAP-UCC Workshop</a> </b><br>  
+             14 Feb 2014 - Cork <br>
+Organizing Institution: University College Cork <br>
+Content: Methodologies linking energy system models and economics models 
+<br> <br>
+             <b><a name="Workshop_Macroeconomic_Modeling">Workshop Macroeconomic Modeling</a></b> <br>           
+               13 Feb 2014 - Paris <br>
+  Organizing Institution: IEA<br>  <br>
+
+          <b><a name="Modeling_Workshop">Modeling Workshop</a></b>   <br>    13 Feb 2014 - Mexico <br>
+ Organizing Institution: INECC  <br>
+Content: Introduction to model tools & general equilibrium models applied to economic, environmental and energy issues <br> <br>
+ -->
+
+<!-- 
+<script type="text/javascript"> 
+<!-- This script and many more are available free online at --> 
+<!-- The JavaScript Source!! http://javascript.internet.com --> 
+ 
+<!-- Begin 
+function maxDays(mm, yyyy){ 
+var mDay; 
+ if((mm == 3) || (mm == 5) || (mm == 8) || (mm == 10)){ 
+  mDay = 30; 
+   } 
+   else{ 
+    mDay = 31 
+    if(mm == 1){ 
+      if (yyyy/4 - parseInt(yyyy/4) != 0){ 
+       mDay = 28 
+      } 
+      else{ 
+       mDay = 29 
+     } 
+  } 
+  } 
+return mDay; 
+} 
+function changeBg(id){ 
+ if (eval(id).style.backgroundColor != "yellow" ){ 
+  eval(id).style.backgroundColor = "yellow" 
+ } 
+ else{ 
+  eval(id).style.backgroundColor = "#ffffff" 
+ } 
+} 
+function writeCalendar(){ 
+var now = new Date 
+var dd = now.getDate() 
+var mm = now.getMonth() 
+var dow = now.getDay() 
+var yyyy = now.getFullYear() 
+var arrM = new Array("January","February","March","April","May","June","July","August","September","October","November","December" ) 
+var arrY = new Array() 
+ for (ii=0;ii<=4;ii++){ 
+  arrY[ii] = yyyy - 2 + ii 
+ } 
+var arrD = new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat" ) 
+ 
+var text = "" 
+text = "<form name=calForm>" 
+text += "<table border=1>" 
+text += "<tr><td>" 
+text += "<table width=100%><tr>" 
+text += "<td align=left>" 
+text += "<select name=selMonth onChange='changeCal()'>" 
+ for (ii=0;ii<=11;ii++){ 
+  if (ii==mm){ 
+   text += "<option value= " + ii + " Selected>" + arrM[ii] + "</option>" 
+  } 
+  else{ 
+   text += "<option value= " + ii + ">" + arrM[ii] + "</option>" 
+  } 
+ } 
+text += "</select>" 
+text += "</td>" 
+text += "<td align=right>" 
+text += "<select name=selYear onChange='changeCal()'>" 
+ for (ii=0;ii<=4;ii++){ 
+  if (ii==2){ 
+   text += "<option value= " + arrY[ii] + " Selected>" + arrY[ii] + "</option>" 
+  } 
+  else{ 
+   text += "<option value= " + arrY[ii] + ">" + arrY[ii] + "</option>" 
+  } 
+ } 
+text += "</select>" 
+text += "</td>" 
+text += "</tr></table>" 
+text += "</td></tr>" 
+text += "<tr><td>" 
+text += "<table border=1>" 
+text += "<tr>" 
+ for (ii=0;ii<=6;ii++){ 
+  text += "<td align=center><span class=label>" + arrD[ii] + "</span></td>" 
+ } 
+text += "</tr>" 
+aa = 0 
+ for (kk=0;kk<=5;kk++){ 
+  text += "<tr>" 
+  for (ii=0;ii<=6;ii++){ 
+   text += "<td align=center><span id=sp" + aa + " onClick='changeBg(this.id)'>1>" 
+   aa += 1 
+  } 
+  text += "</tr>" 
+ } 
+text += "</table>" 
+text += "</td></tr>" 
+text += "</table>" 
+text += "</form>" 
+document.write(text) 
+changeCal() 
+} 
+function changeCal(){ 
+var now = new Date 
+var dd = now.getDate() 
+var mm = now.getMonth() 
+var dow = now.getDay() 
+var yyyy = now.getFullYear() 
+var currM = parseInt(document.calForm.selMonth.value) 
+var prevM 
+ if (currM!=0){ 
+  prevM = currM - 1 
+ } 
+ else{ 
+  prevM = 11 
+ } 
+var currY = parseInt(document.calForm.selYear.value) 
+var mmyyyy = new Date() 
+mmyyyy.setFullYear(currY) 
+mmyyyy.setMonth(currM) 
+mmyyyy.setDate(1) 
+var day1 = mmyyyy.getDay() 
+ if (day1 == 0){ 
+  day1 = 7 
+ } 
+var arrN = new Array(41) 
+var aa 
+ for (ii=0;ii<day1;ii++){ 
+  arrN[ii] = maxDays((prevM),currY) - day1 + ii + 1 
+ } 
+ aa = 1 
+ for (ii=day1;ii<=day1+maxDays(currM,currY)-1;ii++){ 
+  arrN[ii] = aa 
+  aa += 1 
+ } 
+ aa = 1 
+ for (ii=day1+maxDays(currM,currY);ii<=41;ii++){ 
+  arrN[ii] = aa 
+  aa += 1 
+ } 
+ for (ii=0;ii<=41;ii++){ 
+  eval("sp"+ii).style.backgroundColor = "#FFFFFF" 
+ } 
+var dCount = 0 
+ for (ii=0;ii<=41;ii++){ 
+  if (((ii<7)&&(arrN[ii]>20))||((ii>27)&&(arrN[ii]<20))){ 
+   eval("sp"+ii).innerHTML = arrN[ii] 
+   eval("sp"+ii).className = "c3" 
+  } 
+  else{ 
+   eval("sp"+ii).innerHTML = arrN[ii] 
+   if ((dCount==0)||(dCount==6)){ 
+    eval("sp"+ii).className = "c2" 
+   } 
+   else{ 
+    eval("sp"+ii).className = "c1" 
+   } 
+   if ((arrN[ii]==dd)&&(mm==currM)&&(yyyy==currY)){ 
+    eval("sp"+ii).style.backgroundColor="#90EE90" 
+   } 
+  } 
+ dCount += 1 
+  if (dCount>6){ 
+   dCount=0 
+  } 
+ } 
+} 
+//  End 
+</script>
+ -->
+
+
+
+<!-- Show posts -->
+<!-- <ul>
+  
+    <li>
+      <a href="/2014/05/13/Pr%E9sentation-des-variantes-effectu%E9es-%E0-l'aide-de-Three-ME.html">Présentation des variantes effectuées à l'aide de Three-ME</a>
+      <p>Blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/05/13/Presentation-Negawatt.html">Presentation Negawatt</a>
+      <p>blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/03/14/Presentation-Indonesia-BAPPENAS.html">Presentation Indonesia BAPPENAS</a>
+      <p>blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/02/14/ETSAP-UCC-Workshop.html">ETSAP-UCC Workshop</a>
+      <p>blabla</p>
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/02/13/Workshop-Macroeconomic-Modeling.html">Workshop Macroeconomic Modeling</a>
+      <p>blabla</p>
+
+
+
+    </li>
+  
+    <li>
+      <a href="/2014/02/13/Modeling-Workshop.html">Modeling Workshop</a>
+      <p>blabla</p>
+
+
+
+    </li>
+  
+</ul>    -->
+  <!--  <div class="related-post clearfix">
+              <h4>Related Posts</h4>
+              <ul>
+                <li><a href="#"> <img src="images/img-related-post01.jpg" alt="Related Post" /> <span>Lorem ipsum dolor sit</span> </a></li>
+                <li><a href="#"> <img src="images/img-related-post02.jpg" alt="Related Post" /> <span>Free WordPress Themes</span> </a></li>
+                <li><a href="#"> <img src="images/img-related-post03.jpg" alt="Related Post" /> <span>Responsive Bootstrap Template: Agency</span> </a></li>
+                <li><a href="#"> <img src="images/img-related-post01.jpg" alt="Related Post" /> <span>eGrappler.com - A Tech Blog</span> </a></li>
+              </ul>
+            </div> -->
+            
+          </article>
+
+          
+      
+
+    <!--   Event calendar -->
+<!-- <article class="grid_4">
+    <link type="text/css" rel="stylesheet" href="http://www.brolmo.com/index.php?controller=AppEC&action=css&cid=12012" />
+<script type="text/javascript" src="http://www.brolmo.com/index.php?controller=AppEC&action=load&hash=9642eab50d6cb35fcf084e03a9d6e76ed6623582&aid=11840&cid=12012&locale=1&months=1"></script>
+<a id="BrolmoECalendar_12012" href="http://www.brolmo.com/" target="_blank" title="Free Calendar by Brolmo.com">Free Calendar by Brolmo.com</a>
+</article> -->
+<!-- <link type="text/css" rel="stylesheet" href="http://www.brolmo.com/index.php?controller=AppEC&action=css&cid=12012" />
+<script type="text/javascript" src="http://www.brolmo.com/index.php?controller=AppEC&action=load&hash=9642eab50d6cb35fcf084e03a9d6e76ed6623582&aid=11840&cid=12012&locale=1&months=1"></script>
+<a id="BrolmoECalendar_12012" href="http://www.brolmo.com/" target="_blank" title="Free Calendar by Brolmo.com">Free Calendar by Brolmo.com</a> -->
+ 
+<!-- calendar
+          <article class="grid_4">  <div class="widget">
+                           <div><script charset="UTF-8" src="http://widget24.com/code/calendar?data%5BWidget%5D%5Bcss%5D=yellow" type="text/javascript"></script><a 
+            "" title="Calendar for website"></a></div>  
+            </article>  -->
+           
+<!-- calendar -->
+<!-- <article class="grid_4">  <div class="widget">
+      Begin of mycalendar.org script  <div align="center" style="margin:15px 0px 0px 0px"> <div align="center" style="width:140px;border:1px solid #ccc; background: #; color: #E8DD10;font-weight:bold;font-size:12px;"> <a style="text-decoration: none; color: #E8DD10;"</a></div> <script type="text/javascript" src="http://mycalendar.org/calendar.php?cp3_Hex=E2D300&cp2_Hex=FFFFFF&cp1_Hex=E8DD10&ham=0&img=&hbg=1&hfg=1&sid=0&fwdt=200&&widget_number=2"></script> </div>  End of mycalendar.org script
+          </article> --> 
+         
+<!-- calendar
+         <div class="side-widget"><h2>Calendar</h2><div id="calendar_wrap"><table id="wp-calendar">
+  <caption>août 2014</caption>
+  <thead>
+  <tr>
+    <th scope="col" title="Monday">L</th>
+    <th scope="col" title="Tuesday">Ma</th>
+    <th scope="col" title="Wednesday">Me</th>
+    <th scope="col" title="Thursday">J</th>
+    <th scope="col" title="Friday">V</th>
+    <th scope="col" title="Saturday">S</th>
+    <th scope="col" title="Sunday">D</th>
+  </tr>
+  </thead>
+
+  <tfoot>
+  <tr>
+    <td colspan="3" id="prev"><a href="http://energieclimat.hypotheses.org/date/2014/07" title="Voir les articles pour juillet 2014">« juil</a></td>
+    <td class="pad">&nbsp;</td>
+    <td colspan="3" id="next" class="pad">&nbsp;</td>
+  </tr>
+  </tfoot>
+
+  <tbody>
+  <tr>
+    <td colspan="4" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td>
+  </tr>
+  <tr>
+    <td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+  </tr>
+  <tr>
+    <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+  </tr>
+  <tr>
+    <td>18</td><td><a href="http://energieclimat.hypotheses.org/date/2014/08/19" title="Revue de presse – 19 août 2014">19</a></td><td><a href="http://energieclimat.hypotheses.org/date/2014/08/20" title="Revue de presse – mercredi 20 août 2014
+Green Energy and Clean Politics
+Climate Change and the Big Four
+Projet de loi relatif à la transition énergétique pour la croissance verte
+La transition énergétique au milieu du gué
+La transition énergétique allemande">20</a></td><td><a href="http://energieclimat.hypotheses.org/date/2014/08/21" title="Can an Economy Develop Without Coal ?
+What we don’t know about economic climate change impacts
+La Russie envisage un nouveau tracé pour South Stream
+Le rayonnement de la France. Energie nucléaire et identité nationale après la Seconde Guerre mondiale
+La ville durable dans le débat français : entre réflexion et praxis
+Une politique de gauche pour le climat ?
+Taxe carbone, retraites et déficits publics : le coût caché du cloisonnement des expertises">21</a></td><td><a href="http://energieclimat.hypotheses.org/date/2014/08/22" title="Double moral hazard and the energy efficiency gap
+Historical Energy Price Shocks and their Changing Effects on the Economy
+Global warming, technological change and trade in carbon energy: Challenge or threat ?
+Consumer’s Willingness to Pay for Green Electricity: A Meta-Analysis of the Literature
+Renewable Energy, Subsidies, and the WTO: Where Has the ‘Green’ Gone?
+Annuaires statistiques 2014 de l’AIE">22</a></td><td>23</td><td>24</td>
+  </tr>
+  <tr>
+    <td><a href="http://energieclimat.hypotheses.org/date/2014/08/25" title="Revue de presse – vendredi 22 août 2014
+Revue de presse – lundi 25 août 2014
+Economic Analysis of the Potential Mechanisms of Coupling of the European Carbon Market with Emerging Countries
+Identifying the best ways to increase energy access
+Économie du partage : enjeux et opportunités pour la transition écologique
+How to manage a large and flexible nuclear set in a deregulated electricity market from the point of view of social welfare?
+Sustainable energy in Brazil: Reversing past achievements or realizing future potential
+L’intensité énergétique a baissé dans l’industrie entre 2001 et 2012
+Le bilan énergétique de la France pour 2013
+Optimal Transition from Coal to Gas and Renewable Power under Capacity Constraints and Adjustment Costs
+La voie caucasienne, une alternative crédible pour l’approvisionnement gazier de l’UE ?">25</a></td><td id="today"><a href="http://energieclimat.hypotheses.org/date/2014/08/26" title="Les données, enjeu majeur des smart grids
+Les freins réglementaires à l’innovation en matière d’économies d’énergie dans le bâtiment
+The development of Chinese gas pricing: Drivers, challenges and implications for demand
+Economic, environmental, technological and security challenges for energy
+Revue de presse – mardi 26 août 2014">26</a></td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+  </tr>
+  </tbody>
+  </table></div> --></div> 
+<!-- <a href="http://download24.com/" title="download24.com">download24.com</a> --></p>
+</div>
+
+      </div>
+    </div>
+
+  </body>
+</html> -->
+
+
