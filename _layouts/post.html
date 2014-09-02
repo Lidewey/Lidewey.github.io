@@ -2,9 +2,9 @@
 layout: default
 ---
 
+{{ page.excerpt | textilize }}
 <div class="post">
-  {{ page.excerpt | textilize }}
-  <h2 class="post-title">{{ page.title }}</h2>
+    <h2 class="post-title">{{ page.title }}</h2>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   <p>{{ content }}</p>
 </div>
