@@ -264,7 +264,7 @@ header .logo .underline {
 	border-bottom: 2px solid #acb2b6;
 }
 header .logo:hover {
-	color: #acb2b6;
+	color: #FFB483;
 	text-shadow: 1px 1px 0px #fff;
 }
 header .logo .underline:hover {
