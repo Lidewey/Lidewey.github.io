@@ -252,7 +252,7 @@ header {
 }
 header .logo {
 	font-size: 60px;
-	color: #fff;
+	color: #F9C0A7;
 	text-shadow: 1px 1px 0px #381511;
 	-webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 	-moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
@@ -264,7 +264,7 @@ header .logo .underline {
 	border-bottom: 2px solid #F9C0A7;
 }
 header .logo:hover {
-	color: #D4546A;
+	color: #95898E;
 	text-shadow: 1px 1px 0px #4E5C6B;
 }
 header .logo .underline:hover {
