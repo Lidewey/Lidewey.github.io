@@ -54,7 +54,7 @@ body {
 
 li a.current{
    color: #acb2b6;
-   background:#082441;
+   background:#ffffff;
 }
 
 
@@ -754,7 +754,7 @@ Project filter
 	margin-bottom: 10px;
 }
 .project-filter .active, .project-filter a:hover {
-	background: #FFB483;
+	background: #12212F;
 	border-radius: 3px;
 	padding: 3px 5px;
 	color: white;
