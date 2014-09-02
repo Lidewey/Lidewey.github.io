@@ -8,9 +8,10 @@ title: Events
                <ul>
   {% for post in site.posts %}
     <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 
       {{ post.excerpt }}
+      
     </li>
   {% endfor %}
 </ul>
