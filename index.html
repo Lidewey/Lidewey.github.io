@@ -29,6 +29,7 @@ the Broyden algorithm. <br>
             <div class="widget">
 <a href="http://lidewey.github.io/test.html" class="button large">Events</a><br><br>
               <ul>
+                {{ site.pages | sort: 'title', 'last' }}
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
