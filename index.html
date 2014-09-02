@@ -27,6 +27,16 @@ the Broyden algorithm. <br>
           </article>
           <article class="grid_4">
             <div class="widget">
+
+              <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- 
               <a href="http://lidewey.github.io/test.html" class="button large">Events</a><br><br>
                <ul>
                 <li><a href="http://lidewey.github.io/test.html" target="Workshop_Macroeconomic_Modeling">Workshop Macroeconomic Modeling</a></li>
@@ -35,7 +45,7 @@ the Broyden algorithm. <br>
                 <li><a href="http://lidewey.github.io/test.html" target="Présentation_des_variantes_effectuées_à_l'aide_de_ThreeME">Présentation des variantes effectuées à l'aide de ThreeME</a></li>
                 <li><a href="http://lidewey.github.io/test.html" target="ETSAP-UCC_Workshop">ETSAP-UCC Workshop</a></li>
                 <li><a href="http://lidewey.github.io/test.html" target="Presentation_Indonesia_BAPPENAS">Presentation Indonesia BAPPENAS</a></li>
-                </ul>
+                </ul> -->
             </div>           
           </article>
         </div>
