@@ -26,9 +26,11 @@ the Broyden algorithm. <br>
             </div>
           </article>
           <article class="grid_4">
-            <div class="widget">
+
+
+ <!--            <div class="widget">
 <a href="http://lidewey.github.io/test.html" class="button large">Events</a><br><br>
- <!-- {{ site.posts | sort: 'title', 'last' }} -->
+ {{ site.posts | sort: 'title', 'last' }}
               <ul>
                  {% for post in site.posts %}
     <li>
@@ -36,6 +38,21 @@ the Broyden algorithm. <br>
     </li>
   {% endfor %}
 </ul>
+ -->
+<a href="http://lidewey.github.io/test.html" class="button large">Events</a><br><br>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h4 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h4>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+   <!--   {{ post.content }}  -->
+  </div>
+  {% endfor %}
+
 
 <!-- 
               <a href="http://lidewey.github.io/test.html" class="button large">Events</a><br><br>
@@ -47,6 +64,7 @@ the Broyden algorithm. <br>
                 <li><a href="http://lidewey.github.io/test.html" target="ETSAP-UCC_Workshop">ETSAP-UCC Workshop</a></li>
                 <li><a href="http://lidewey.github.io/test.html" target="Presentation_Indonesia_BAPPENAS">Presentation Indonesia BAPPENAS</a></li>
                 </ul> -->
+                 </article>
             </div>           
           </article>
         </div>
