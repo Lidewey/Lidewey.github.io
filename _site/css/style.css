@@ -53,8 +53,8 @@ body {
 #sub-header .active a{ color: #fff; }*/
 
 li a.current{
-   color: #ffff00;
-   background:#f1d74c;
+   color: #acb2b6;
+   background:#082441;
 }
 
 
@@ -134,7 +134,7 @@ strike {
 	border: 1px solid #e19c9c;
 }
 a {
-	color: #000000;  
+	color: #082441;  
 	outline: none;
 	text-decoration: none;
 	cursor: pointer;
@@ -164,7 +164,7 @@ a.arrowlink:hover {
 	border: 0px;
 	border: none;
 	cursor: pointer;
-	background: #12212F;
+	background: #082441;
 	border-radius: 3px;
 	color: #fff;
 }
@@ -358,7 +358,7 @@ h2.ind2 {
 	padding: 96px 0 96px 0 !important;
 }
 .block1 {
-	background: #12212f;
+	background: #082441;
 }
 .block2 {
 	background: url(../images/block2.jpg) 50% 0 repeat-x #fff;
@@ -1448,7 +1448,7 @@ Tabs
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
 	padding-bottom: 1px;
 	border-bottom-width: 0;
-	background: #12212f;
+	background: #082441;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
 	cursor: text;
@@ -1478,14 +1478,14 @@ jQuery UI Progress bar
 ========================================================
 */
 .ui-progressbar {
-	background: #12212F;
+	background: #082441;
 	border-radius: 4px;
 	border: 0;
 	height: 1em;
 }
 .ui-progressbar-value {
 	border-radius: 0px;
-	background: #12212f;
+	background: #082441;
 	border: 0;
 	height: 1.2em !important;
 }
