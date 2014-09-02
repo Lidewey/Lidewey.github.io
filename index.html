@@ -21,41 +21,24 @@ the Broyden algorithm. <br>
 <!-- Go to the <a href="http://lidewey.github.io/themodel/#Figure_1" target="Figure_1">model</a>.<br><br> --><br>
 <i><a href="#">Go back up</a></i>
 </p>
-</p>
+ </div>
+</article>
 
-            </div>
-          </article>
 
-          <article class="grid_4">
-            <div class="widget">
+
+    <article class="grid_4">
+       <div class="widget">
 <a href="http://lidewey.github.io/test.html" class="button large">Events</a><br><br>
  <!-- {{ site.posts | sort: 'title', 'last' }} -->
-              <ul>
-                 {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
-    </li>
-  {% endfor %}
-</ul>
-
-<!-- 
-<div class="posts">
-  <a href="http://lidewey.github.io/test.html" class="button large">Events</a><br><br>
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h4 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h4>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-     {{ post.content }} 
-  </div>
-  {% endfor %} -->
-
-
-                 </article>
+       <ul>
+         {% for post in site.posts %}
+      <li>
+       <a href="{{ post.url }}">{{ post.title }}</a>
+       <span class="post-date">{{ post.date | date_to_string }}</span>
+      </li>
+        {% endfor %}
+   </ul>
+             </article>
             </div>           
           </article>
         </div>
