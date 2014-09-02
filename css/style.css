@@ -265,7 +265,7 @@ header .logo .underline {
 }
 header .logo:hover {
 	color: #acb2b6;
-	text-shadow: 1px 1px 0px #FFB483;
+	text-shadow: 1px 1px 0px #fff;
 }
 header .logo .underline:hover {
 	border-bottom: 2px solid #FFB483;
