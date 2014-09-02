@@ -265,7 +265,7 @@ header .logo .underline {
 }
 header .logo:hover {
 	color: #FFB483;
-	text-shadow: 1px 1px 0px #fff;
+	text-shadow: 1px 1px 0px #acb2b6;
 }
 header .logo .underline:hover {
 	border-bottom: 2px solid #FFB483;
@@ -754,7 +754,7 @@ Project filter
 	margin-bottom: 10px;
 }
 .project-filter .active, .project-filter a:hover {
-	background: #12212F;
+	background: #FFB483;
 	border-radius: 3px;
 	padding: 3px 5px;
 	color: white;
