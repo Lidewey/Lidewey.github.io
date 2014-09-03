@@ -14,15 +14,15 @@ layout: default
 
 
 <div class="related">
-  <h3>Related events</h3>
+  <h2>Related events</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:10 %}
-        <h4>
+        <p>
           <a href="{{ post.url }}">
             {{ post.title }}
             <p>{{ post.date | date_to_string }}</p>
           </a>
-        </h4>
+        </p>
          {% endfor %}
   </ul>
 </div>
