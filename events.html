@@ -19,13 +19,13 @@ title: Events
             <div class="related-post clearfix">
               
   {% for post in site.posts %}
- <ul> <li>
+ <li>
       <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 {{ post.date | date_to_string }}<br>
-      {{ post.excerpt | truncatewords:30 }}
+      {{ post.excerpt | strip_html | truncatewords:30 }}
       
     </li>
-    </ul>  
+   
   {% endfor %}
 </ul>
 </div>
