@@ -625,7 +625,7 @@ Featured Work Services Page
 }
 .featured-work-services img:hover {
 	border-color: transparent;
-	opacity: 0.3;
+	opacity: 0.8;
 }
 .prev, .next {
 	display: block;
@@ -743,7 +743,7 @@ Our Team
 }
 .our_team img:hover {
 	border-color: transparent;
-	opacity: 0.3;
+	opacity: 0.8;
 }
 .team_skills {
 	margin-top: 24px;
@@ -794,7 +794,7 @@ Project filter
 	display: inline-block;
 }
 .projects img:hover {
-	opacity: 0.3;
+	opacity: 0.8;
 }
 .project-item {
 	position: relative;
