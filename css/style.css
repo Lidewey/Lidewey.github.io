@@ -509,7 +509,7 @@ h4 {
 	position: relative;
 	float: left;
 	-moz-border-radius: 0px;
-	border-radius: 0px;
+	border-radius: none;
 	border-style: none;
 	border: none;
 	background: #fff;
