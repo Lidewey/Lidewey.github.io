@@ -28,13 +28,11 @@ the Broyden algorithm. <br><br>
 <article class="grid_4">
   <div class="widget">
 <a href="http://lidewey.github.io/events.html" class="button large">Upcoming events</a><br><br>
-        <ul>
-         {% for post in site.posts %}
-      <li>
+        
 
 
 {% if post.date => site.time %}
-{% include post in site.post %}
+<li>{% include post in site.post %}</li>
 {% else %}
 {% endif %}
 
@@ -61,6 +59,9 @@ document.write(contentpost);
 </script>
 
 <br><br>
+
+
+
 
 <article class="grid_4">
   <div class="widget">
