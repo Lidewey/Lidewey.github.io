@@ -17,14 +17,14 @@ title: Events
 
           <!--   <article class="grid_8"> -->
             <div class="related-post clearfix">
-              
+      <ul>        
   {% for post in site.posts %}
- <ul> <li>
+  <li>
       <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 {{ post.date | date_to_string }}<br>
 {{ post.excerpt | remove: '<img>' | remove: '<img/>' }}<br>
       </li>
-    </ul>  
+  
   {% endfor %}
 </ul>
 </div>
