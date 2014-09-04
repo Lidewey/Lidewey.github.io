@@ -3,16 +3,29 @@ layout: page
 title: Events
 ---
 
+
+<!--  <div class="related-post clearfix">
+              <h4>Related Posts</h4>
+              <ul>
+                <li><a href="#"> <img src="images/img-related-post01.jpg" alt="Related Post" /> <span>Lorem ipsum dolor sit</span> </a></li>
+                <li><a href="#"> <img src="images/img-related-post02.jpg" alt="Related Post" /> <span>Free WordPress Themes</span> </a></li>
+                <li><a href="#"> <img src="images/img-related-post03.jpg" alt="Related Post" /> <span>Responsive Bootstrap Template: Agency</span> </a></li>
+                <li><a href="#"> <img src="images/img-related-post01.jpg" alt="Related Post" /> <span>eGrappler.com - A Tech Blog</span> </a></li>
+              </ul>
+            </div>
+ -->
+
             <article class="grid_8">
-            <div class="post">
-               <ul>
+            <div class="post clearfix">
+              
   {% for post in site.posts %}
-    <li>
+ <ul> <li>
       <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 
       {{ post.excerpt }}
       
     </li>
+    </ul>  
   {% endfor %}
 </ul>
 <!-- 
