@@ -21,7 +21,7 @@ title: Events
   {% for post in site.posts %}
  <ul> <li>
       <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-
+{{ post.date | date_to_string }}
       {{ post.excerpt | remove: '<img>' | remove: '</img>' }}
       
     </li>
