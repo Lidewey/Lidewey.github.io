@@ -79,9 +79,11 @@ document.write(contentpost);
 
 
 
+
 <article class="grid_4">
   <div class="widget">
 <a href="http://lidewey.github.io/events.html" class="button large">Events</a><br><br>
+<ul>
   {% for post in site.posts  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
@@ -113,5 +115,6 @@ document.write(contentpost);
         {% endif %}
     {% endif %}
 {% endfor %}
+</ul>
  </div>
   </article>
