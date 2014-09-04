@@ -618,7 +618,7 @@ Featured Work Services Page
 	width: 100%;
 }
 .featured-work-services img:hover {
-	border-color: #12212f;
+	border-color: transparent;
 	opacity: 0.8;
 }
 .prev, .next {
