@@ -22,7 +22,7 @@ title: Events
  <ul> <li>
       <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 {{ post.date | date_to_string }}<br>
-{{ post.excerpt | remove: '<img>' | remove: '</img>' }}<br>
+{{ post.excerpt | remove: '<img>' | remove: '<img/>' }}<br>
       </li>
     </ul>  
   {% endfor %}
