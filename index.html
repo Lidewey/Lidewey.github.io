@@ -27,6 +27,40 @@ the Broyden algorithm. <br><br>
 
 <article class="grid_4">
   <div class="widget">
+<a href="http://lidewey.github.io/events.html" class="button large">Upcoming events</a><br><br>
+        <ul>
+         {% for post in site.posts %}
+      <li>
+<script>
+function myFunction() {
+        if {{ post.date }} => {{ site.time }} {
+
+      <ul>
+         {% for post in site.posts %}
+      <li>
+       <a href="{{ post.url }}">{{ post.title }}</a>
+       <span class="post-date">{{ post.date | date_to_string }}</span>
+      </li>
+        {% endfor %}
+        </ul> 
+      ;
+} else {
+    return;
+}
+
+</script>
+
+
+       <a href="{{ post.url }}">{{ post.title }}</a>
+       <span class="post-date">{{ post.date | date_to_string }}</span>
+      </li>
+        {% endfor %}
+   </ul>
+    </div>
+  </article>
+
+<article class="grid_4">
+  <div class="widget">
 <a href="http://lidewey.github.io/events.html" class="button large">Events</a><br><br>
         <ul>
          {% for post in site.posts %}
