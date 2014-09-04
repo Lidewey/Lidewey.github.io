@@ -32,6 +32,12 @@ the Broyden algorithm. <br><br>
          {% for post in site.posts %}
       <li>
 
+
+{% if post.date => site.time %}
+{% include post in site.post %}
+{% else %}
+{% endif %}
+
 <script>
 
 var datecurrent= {{ site.time }};
