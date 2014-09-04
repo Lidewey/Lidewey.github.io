@@ -57,7 +57,13 @@ li a.current{
    background:transparant;
 }
 
-img { border-style: none; }
+img {
+ border-style: none;
+  }
+
+img:hover{
+	border: none;
+}
 
 
 p {
