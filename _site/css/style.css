@@ -55,7 +55,14 @@ body {
 li a.current{
    color: #80909B;
    background:transparant;
-   
+}
+
+img {
+ border-style: none;
+  }
+
+img:hover{
+	border: none;
 }
 
 
@@ -507,12 +514,14 @@ h4 {
 .imgwrap {
 	position: relative;
 	float: left;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+	-moz-border-radius: 0px;
+	border-radius: none;
+	border-style: none;
+	border: none;
 	background: #fff;
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6) inset;
+	/*-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6) inset;
 	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6) inset;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.6) inset;*/
 }
 .imgwrap:before, .imgwrap:after {
 	content: "";
@@ -615,8 +624,8 @@ Featured Work Services Page
 	width: 100%;
 }
 .featured-work-services img:hover {
-	border-color: #12212f;
-	opacity: 0.8;
+	border-color: transparent;
+	opacity: 1;
 }
 .prev, .next {
 	display: block;
@@ -721,7 +730,7 @@ Our Team
 }
 .our_team img {
 	margin-bottom: 24px;
-	border: 1px solid #e58b7f;
+	border: 0px solid #e58b7f;
 	background: transparent;
 	padding: 3px;
 	-webkit-transition: border-color .7s linear, opacity .2s linear;
@@ -733,8 +742,8 @@ Our Team
 	width: 100%;
 }
 .our_team img:hover {
-	border-color: #12212f;
-	opacity: 0.7;
+	border-color: transparent;
+	opacity: 1;
 }
 .team_skills {
 	margin-top: 24px;
@@ -785,7 +794,7 @@ Project filter
 	display: inline-block;
 }
 .projects img:hover {
-	opacity: 0.8;
+	opacity: 1;
 }
 .project-item {
 	position: relative;
@@ -1145,7 +1154,7 @@ Blog
 
 
 .post img {
-	border: 1px solid #eee;
+	border: 0px solid #eee;
 	background: #fff;
 	padding: 3px;
 	-webkit-transition: border-color .7s linear, opacity .2s linear;
@@ -1158,7 +1167,7 @@ Blog
 }
 .post img:hover {
 	border-color: #12212f;
-	opacity: 0.8;
+	opacity: 1;
 }
 .post {
 	margin-bottom: 48px;
@@ -1739,9 +1748,9 @@ body {
 #tabs {
 	height: auto;
 }
-.project_box img {
+/*.project_box img {
 	width: 100%;
-}
+}*/
 .offers_box1 {
 	padding: 3px 0 35px;
 }
