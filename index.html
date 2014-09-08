@@ -43,7 +43,21 @@ the Broyden algorithm. <br><br>
 
   <article class="grid_4">
   <div class="widget">
-<a href="http://lidewey.github.io/events.html" class="button large">Past events</a><br><br>
+ {% for category in site.categories %}
+  <h2>{{ category[Past events] }}</h2>
+  <ul class="posts">
+    {% for post in category[1] %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+    </div>
+  </article>
+
+
+
+
+<!-- <a href="http://lidewey.github.io/events.html" class="button large">Past events</a><br><br>
 
 {% for category in site.categories %}
   <li><a name="{{ category | past }}">{{ category | past }}</a>
@@ -56,11 +70,4 @@ the Broyden algorithm. <br><br>
     {% endfor %}
     </ul>
   </li>
-{% endfor %}
-    </div>
-  </article>
-
-
-
-
-
+{% endfor %} -->
