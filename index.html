@@ -40,13 +40,13 @@ the Broyden algorithm. <br><br>
 
   <article class="grid_4">
   <div class="widget">
- {% for category in site.categories %}
+ <!-- {% for category in site.categories %} -->
  <!--  <h2><a name="{{ category | Past events}}">{{ category | Past events }}</a></h2> -->
   <ul>
     {% for post in category[Past events] %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-  {% endfor %}
+<!--   {% endfor %} -->
     </div>
   </article>
