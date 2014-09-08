@@ -36,6 +36,7 @@ title: Events
     {% for post in site.categories[past events] %}
       <li> <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 {{ post.date | date_to_string }}<br></li>
+{{ post.excerpt }}
     {% endfor %}
   </ul>
     </div>
