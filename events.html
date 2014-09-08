@@ -31,7 +31,7 @@ title: Events
 
 <article class="grid_4">
    <div class="post">
-        <h3>{{ category | past events }}</h3>
+        <h3>Past events</h3>
       <ul>
     {% for post in site.categories[past events] %}
       <li> <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
@@ -44,7 +44,7 @@ title: Events
 
   <article class="grid_4">
   <div class="widget">
-      <h3>{{ category | upcoming events }}</h3>
+      <h3>Upcoming events</h3>
        <ul>
     {% for post in site.categories[upcoming events] %}
       <li> <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
