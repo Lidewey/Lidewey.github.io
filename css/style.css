@@ -50,7 +50,7 @@ body {
 
 /*.active { background-color: #000; }
  to override the existing css for "a" tag */
-#sub-header .active a{ color: #80909B; 
+#sub-header .active a{ color: #fff; 
 }
 
 li a.current{
