@@ -39,12 +39,15 @@ the Broyden algorithm. <br><br>
     </div>
   </article>
 
+ <br>
+
   <article class="grid_4">
   <div class="widget">
-<a href="http://lidewey.github.io/events.html" class="button large">Events</a><br><br>
+<a href="http://lidewey.github.io/events.html" class="button large">Past events</a><br><br>
 
 {% for category in site.categories %}
   <li><a name="{{ category | past }}">{{ category | past }}</a>
+    {{ post.content | truncatewords:0}}
     <ul>
     {% for posts in category %}
       {% for post in posts %}
