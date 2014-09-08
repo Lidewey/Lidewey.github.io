@@ -172,13 +172,13 @@ a.arrowlink:hover {
 	border: 0px;
 	border: none;
 	cursor: pointer;
-	background: #12212f;
+	background: #F9C0A7;
 	border-radius: 3px;
-	color: #fff;
+	color: #000000;
 }
 .button:hover {
-	color: white;
-	background: #F9C0A7;
+	color: black;
+	background: #95898E;
 }
 .button.small {
 	font-size: 12px;
