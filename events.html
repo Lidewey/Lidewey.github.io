@@ -16,7 +16,7 @@ title: Events
  -->
 
           <!--   <article class="grid_8"> -->
-            <div class="related-post clearfix">
+   <!--          <div class="related-post clearfix">
       <ul>        
   {% for post in site.posts %}
   <li>
@@ -27,7 +27,32 @@ title: Events
   
   {% endfor %}
 </ul>
-</div>
+</div> -->
+
+<article class="grid_4">
+  <div class="widget">
+       <ul>
+    {% for post in site.categories[upcoming events] %}
+      <li> <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+{{ post.date | date_to_string }}<br></li>
+    {% endfor %}
+  </ul>
+    </div>
+  </article>
+
+ <br><br><br><p>
+
+  <article class="grid_4">
+  <div class="widget">
+      <ul>
+    {% for post in site.categories[past events] %}
+      <li> <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+{{ post.date | date_to_string }}<br></li>
+    {% endfor %}
+  </ul>
+    </div>
+  </article>
+</p>
 <!-- 
 
      <b>  <a name="Présentation_des_variantes_effectuées_à_l'aide_de_ThreeME">Présentation des variantes effectuées à l'aide de Three-ME</a></b> <br>    13 May 2014 - Paris <br>
