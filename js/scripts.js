@@ -14,7 +14,7 @@
 $( document ).ready(function() {
 
 if (location.pathname =="/"){ 
-	location.pathname.addClass('current');
+(location.pathname).addClass('current');
 
 }else{
 
