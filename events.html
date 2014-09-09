@@ -3,6 +3,18 @@ layout: page
 title: Events
 ---
   
+
+{% for post in site.posts %}
+{{ site.time | date: "%m-%d-%Y" }}>{{ post.date | date: "%m-%d-%Y" }}
+<h2>Past events</h2>
+<li><a href="{{ post.url }}">{{ post.title }}</a></li><br>
+{% endfor %}
+{% for post in site.posts %}
+{{ site.time | date: "%m-%d-%Y" }}<={{ post.date | date: "%m-%d-%Y" }}
+<h2>Upcoming events events</h2>
+<li><a href="{{ post.url }}">{{ post.title }}</a></li><br>
+{% endfor %}
+  
 <article class="grid_6">
    <div class="post">
 {% for post in site.posts  %}
@@ -11,12 +23,9 @@ title: Events
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
     {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-{% for site.time > post.date %}
-<h2>Past events</h2>
-{% for site.time <= post.date %}
-<h2>Upcoming events events</h2>
 
-    {% if forloop.first %}
+
+   {% if forloop.first %}
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     <h3 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h3>
     <ul>
