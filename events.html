@@ -33,17 +33,17 @@ title: Events
 {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
 {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
 {% if site_size > post_size  %}
-<article class="grid_5">
-   <div class="post">
-    <h2>&raquo;Past events&laquo;</h2>
-   <a href="{{ post.url }}">{{ post.title }}</a>
-<span>{{ post.date | date_to_string }}</span><br> 
+<!-- <article class="grid_5">
+   <div class="post"> -->
+    <br><h2>&raquo;Past events&laquo;</h2>
+  <ul><li> <a href="{{ post.url }}">{{ post.title }}</a>
+<span>{{ post.date | date_to_string }}</span></li></ul><br> 
      {% else %}
-     <article class="grid_5">
-   <div class="widget">
-     <h2>&raquo;Upcoming events&laquo;</h2>
-     <a href="{{ post.url }}">{{ post.title }}</a>
-<span>{{ post.date | date_to_string }}</span><br> 
+    <!--  <article class="grid_5">
+   <div class="widget"> -->
+     <br><h2>&raquo;Upcoming events&laquo;</h2>
+     <ul><li><a href="{{ post.url }}">{{ post.title }}</a>
+<span>{{ post.date | date_to_string }}</span></li></ul><br> 
   {% endif %}
 
 <!-- {% if forloop.first %}
