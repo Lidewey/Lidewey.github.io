@@ -32,6 +32,12 @@ title: Events
     <ul>
     {% endif %}
 
+    {% if site.date > post.date %}
+    <h2>Past events</h2>
+    {% else %}
+    {% if post.date => site.date
+    <h2>Upcoming events</h2> %}
+    {% endif %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li><br>  
 
     {% if forloop.last %}
