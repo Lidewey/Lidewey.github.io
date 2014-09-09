@@ -34,8 +34,8 @@ title: Events
 
     <!-- Sort by past and upcoming events -->
 
-   {% if post in site.posts  %}
-    {{ site.time | date: "%Y%m%d" }}=>{{ post.date| date: "%Y%m%d" }}
+   {% if %}
+    {{ site.time | date: "%Y%m%d" }}>{{ post.date| date: "%Y%m%d" }}
     <h2>Past events</h2>
     {% else %}
        <h2>Upcoming events</h2> %}
