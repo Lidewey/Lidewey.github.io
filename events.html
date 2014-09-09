@@ -38,9 +38,9 @@ title: Events
 {% capture site_size %}{{ site.time | date: "%Y%B%d" }}{% endcapture %}
 {% capture post_size %}{{ post.date | date: "%Y%B%d" }}{% endcapture %}
 {% if "site_size" < "post_size"  %}
-    <h2>Upcoming events</h2>
+    <h2>&raquo;Upcoming events&laquo;</h2>
      {% else %}
-     <h2>Past events</h2>
+     <h2>&raquo;Past events&laquo;</h2>
   {% endif %}
 
   
