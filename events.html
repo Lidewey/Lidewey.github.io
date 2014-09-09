@@ -8,6 +8,7 @@ title: Events
 {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
 
 <article class="grid_6">
+  <div class="post">
      <h2 id="Past-events">Past events</h2>
 
   {% for post in site.posts  %}
@@ -22,7 +23,7 @@ title: Events
   {% endif %}
   {% endfor %}
  
-
+   </div>
  </article>
 
 
