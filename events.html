@@ -36,10 +36,14 @@ title: Events
 <article class="grid_5">
    <div class="post">
     <h2>&raquo;Past events&laquo;</h2>
+   <li><a href="{{ post.url }}">{{ post.title }}</a>
+<span>{{ post.date | date_to_string }}</span></li><br> 
      {% else %}
      <article class="grid_5">
    <div class="widget">
      <h2>&raquo;Upcoming events&laquo;</h2>
+     <li><a href="{{ post.url }}">{{ post.title }}</a>
+<span>{{ post.date | date_to_string }}</span></li><br> 
   {% endif %}
 
 {% if forloop.first %}
@@ -49,10 +53,8 @@ title: Events
     {% endif %}
   
 
-    <li>
-      
-<a href="{{ post.url }}">{{ post.title }}</a>
-<span>{{ post.date | date_to_string }}</span></li><br>  
+<!-- <li><a href="{{ post.url }}">{{ post.title }}</a>
+<span>{{ post.date | date_to_string }}</span></li><br>   -->
 
     {% if forloop.last %}
     </ul>
