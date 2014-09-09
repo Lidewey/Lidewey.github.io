@@ -14,10 +14,8 @@
 $( document ).ready(function() {
 
   	$("a[href*='" + location.pathname + "']").addClass('current');
-  	if (location.pathname=="lidewey.github.io"){
-  		.addClass('current');
-  	}
-});
+  	
+ });
 
 
 $(function() {
