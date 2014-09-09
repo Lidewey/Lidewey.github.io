@@ -13,16 +13,19 @@
 
 $( document ).ready(function() {
 
+if (location.pathname =="lidewey.github.io"){ 
+	$("lidewey.github.io").addClass('current');
+
+}else{
+
   	$("a[href*='" + location.pathname + "']").addClass('current');
-  	if (location.pathname=="lidewey.github.io"){
-  		.addClass('current');
-  	}
+}
 });
 
 
-$(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
+// $(function() {
+//   $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+// });
 
  // $( "ul li" ).filter( ".current" );
 
