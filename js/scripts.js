@@ -13,7 +13,7 @@
 
 $( document ).ready(function() {
 
-if ($( location.pathname )=="lidewey.github.io"){ 
+if (location.pathname =="lidewey.github.io"){ 
 	$("a[href*='" + location.pathname + "']").addClass('current');
 
 }else{
