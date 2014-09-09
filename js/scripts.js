@@ -14,7 +14,7 @@
 $( document ).ready(function() {
 
 if (location.pathname =="lidewey.github.io"){ 
-	$("lidewey.github.io").addClass('current');
+	.addClass('current');
 
 }else{
 
