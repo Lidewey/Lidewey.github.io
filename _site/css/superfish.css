@@ -35,12 +35,12 @@ padding: 5px 10px;
 .sf-menu>li>ul>li{ text-align:left; }
 .sf-menu li ul li:first-child{ background:none;}
 .sf-menu li ul li a{
-	font-size: 13px; line-height: 24px; color:#80909B; text-align:left; text-transform:uppercase;
+	font-size: 13px; line-height: 24px; color:#fff; text-align:left; text-transform:uppercase;
 	display: block;
 	clear: both;
 	font-weight: normal;
 	border-bottom:1px solid #333;
-	color: #80909B;
+	color: #fff;
 	white-space: nowrap;
 	padding-left: 0px;
 	text-shadow: none;
