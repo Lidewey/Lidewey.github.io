@@ -8,11 +8,11 @@ title: Events
 {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
 
 <article class="grid_6">
-  <div class="post">
+  <div class="widget">
      <h2 id="Past-events">Past events</h2>
 
-<!--   {% for post in site.posts  %}
- -->
+  {% for post in site.posts  %}
+
   {% if site_size > post_size  %}
 
 <ul><li> <a href="{{ post.url }}">{{ post.title }}</a> <br>
@@ -21,7 +21,7 @@ title: Events
 <a href="{{ post.url }}">...Read more </li><br></ul>
 
   {% endif %}
- <!--  {% endfor %} -->
+  {% endfor %}
  
    </div>
  </article>
@@ -34,7 +34,7 @@ title: Events
    <div class="widget">
      <h2 id="Upcoming-events">Upcoming events</h2>
 
- <!--  {% for post in site.posts  %} -->
+  {% for post in site.posts  %}
   {% if site_size <= post_size  %}
 
 <ul><li> <a href="{{ post.url }}">{{ post.title }}</a> <br>
@@ -43,7 +43,7 @@ title: Events
 <a href="{{ post.url }}">...Read more </li><br></ul>
 
   {% endif %}
-  <!-- {% endfor %} -->
+  {% endfor %}
 
   </article>
 </div>  
