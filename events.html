@@ -4,14 +4,13 @@ title: Events
 ---
   
 
-{% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
-{% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
-
 <article class="grid_6">
   <div class="widget">
      <h2 id="Past-events">Past events</h2>
 
   {% for post in site.posts  %}
+  {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
+  {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
 
   {% if site_size > post_size  %}
 
@@ -27,14 +26,13 @@ title: Events
  </article>
 
 
-{% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
-{% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
-
 <article class="grid_5">
    <div class="widget">
      <h2 id="Upcoming-events">Upcoming events</h2>
 
   {% for post in site.posts  %}
+  {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
+  {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
   {% if site_size <= post_size  %}
 
 <ul><li> <a href="{{ post.url }}">{{ post.title }}</a> <br>
