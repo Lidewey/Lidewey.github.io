@@ -16,7 +16,7 @@ $( document ).ready(function() {
 if (location.pathname =="/"){ 
     
 
-   $("a[href*='/']").addClass('current');
+   ("a[href*=='/']").addClass('current');
 
 }else{
 
