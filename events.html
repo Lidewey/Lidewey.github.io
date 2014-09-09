@@ -31,14 +31,6 @@ title: Events
     <!-- Sort by past and upcoming events -->
 
 
-{% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
-{% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
-{% if site_size < post_size  %}
-    <h2>&raquo;Upcoming events&laquo;</h2>
-     {% else %}
-     <h2>&raquo;Past events&laquo;</h2>
-  {% endif %}
-
 {% if forloop.first %}
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     <h3 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h3>
@@ -46,7 +38,16 @@ title: Events
     {% endif %}
   
 
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li><br>  
+    <li>
+      {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
+{% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
+{% if site_size < post_size  %}
+    <h2>&raquo;Upcoming events&laquo;</h2>
+     {% else %}
+     <h2>&raquo;Past events&laquo;</h2>
+  {% endif %}
+
+<a href="{{ post.url }}">{{ post.title }}</a></li><br>  
 
     {% if forloop.last %}
     </ul>
