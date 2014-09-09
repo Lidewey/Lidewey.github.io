@@ -25,20 +25,17 @@ title: Events
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
     {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-    
-
     <!-- Sort by past and upcoming events -->
-
 
 {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
 {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
 {% if site_size > post_size  %}
-<!-- <article class="grid_5">
-   <div class="post"> -->
+<article class="grid_5">
+   <div class="post">
  <br><h2>Past events</h2>
        {% else %}
-    <!--  <article class="grid_5">
-   <div class="widget"> -->
+     <article class="grid_5">
+   <div class="widget">
       <br><h2>Upcoming events</h2>
      {% endif %}
 
