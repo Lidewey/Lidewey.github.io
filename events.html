@@ -27,9 +27,13 @@ title: Events
  </article>
 </div>
 
+{% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
+{% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
+
 <article class="grid_5">
    <div class="widget">
      <h2 id="Past-events">Upcoming events</h2>
+
 
 {% for post in site.posts  %}
 
