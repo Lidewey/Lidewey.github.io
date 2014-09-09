@@ -35,20 +35,21 @@ title: Events
 {% if site_size > post_size  %}
 <!-- <article class="grid_5">
    <div class="post"> -->
-  <ul>  <br><h2>Past events</h2>
-  <li> <a href="{{ post.url }}">{{ post.title }}</a><br>
-<span>{{ post.date | date_to_string }}</span>
-<br>
-{{ post.excerpt }}<a href="{{ post.url }}">...Read more</li></ul><br> 
+ <br><h2>Past events</h2>
+  <br> 
      {% else %}
     <!--  <article class="grid_5">
    <div class="widget"> -->
-     <ul> <br><h2>Upcoming events</h2>
-    <li><a href="{{ post.url }}">{{ post.title }}</a><br>
+      <br><h2>Upcoming events</h2>
+    <br> 
+  {% endif %}
+
+  <li> <a href="{{ post.url }}">{{ post.title }}</a><br>
 <span>{{ post.date | date_to_string }}</span>
 <br>
-{{ post.excerpt }}<a href="{{ post.url }}">...Read more</li></ul><br> 
-  {% endif %}
+{{ post.excerpt }}<a href="{{ post.url }}">...Read more</li>
+
+
 
 <!-- {% if forloop.first %}
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
