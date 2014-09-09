@@ -11,6 +11,11 @@ title: Events
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
     {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
+{% for "site.time" > post.date %}
+<h2>Past events</h2>
+{% for "site.time" <= post.date %}
+<h2>Upcoming events events</h2>
+
     {% if forloop.first %}
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     <h3 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h3>
@@ -35,6 +40,8 @@ title: Events
             {% endif %}
         {% endif %}
     {% endif %}
+{% endfor %}
+{% endfor %}
 {% endfor %}
 </div>
 </article>
@@ -68,5 +75,14 @@ title: Events
   </article>
 </p>
 
+
+{% for "site.time" => post.date %}
+<h2>Past events</h2>
+
+{% elsif page.class == "contact" %}
+{% include contact.html %}
+{% else %}
+{{ content }}
+{% endif %}
 
     
