@@ -13,9 +13,15 @@
 
 $( document ).ready(function() {
 
+if ($( location.pathname )=="lidewey.github.io"){ 
+	$("a[href*='" + location.pathname + "']").addClass('current');
+
+}else{
+
   	$("a[href*='" + location.pathname + "']").addClass('current');
   	
- });
+}
+});
 
 
 // $(function() {
