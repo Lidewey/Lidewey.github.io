@@ -18,8 +18,7 @@ title: Events
 
 
 
-<article class="grid_6">
-   <div class="post">
+
 {% for post in site.posts  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
@@ -33,10 +32,14 @@ title: Events
 
 {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
 {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
-{% if site_size < post_size  %}
-    <h2>&raquo;Upcoming events&laquo;</h2>
+{% if site_size > post_size  %}
+<article class="grid_5">
+   <div class="post">
+    <h2>&raquo;Past events&laquo;</h2>
      {% else %}
-     <h2>&raquo;Past events&laquo;</h2>
+     <article class="grid_5">
+   <div class="widget">
+     <h2>&raquo;Upcoming events&laquo;</h2>
   {% endif %}
 
 {% if forloop.first %}
