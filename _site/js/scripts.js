@@ -13,8 +13,8 @@
 
 $( document ).ready(function() {
 
-if (location.pathname =="lidewey.github.io"){ 
-	.addClass('current');
+if (location.pathname =="/"){ 
+("/").addClass('current');
 
 }else{
 
