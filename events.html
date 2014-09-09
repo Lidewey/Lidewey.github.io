@@ -28,6 +28,24 @@ title: Events
   {% endfor %}
 </ul>
 </div> -->
+
+<!-- {% for site.time == post.date %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+
+
+<h2>Upcoming events</h2> -->
+
+
+{% for post in site.posts %}
+  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if currentyear != year %}
+    <li>{{ currentyear }}</li>
+    {% capture year %}{{currentyear}}{% endcapture %} 
+  {% endif %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
 <article class="grid_6">
    <div class="post">
 {% for post in site.posts  %}
