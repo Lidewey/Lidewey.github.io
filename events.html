@@ -11,9 +11,9 @@ title: Events
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
     {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-{% for "site.time" > post.date %}
+{% for site.time > post.date %}
 <h2>Past events</h2>
-{% for "site.time" <= post.date %}
+{% for site.time <= post.date %}
 <h2>Upcoming events events</h2>
 
     {% if forloop.first %}
