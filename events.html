@@ -34,6 +34,15 @@ title: Events
 
     <!-- Sort by past and upcoming events -->
 
+
+{% capture site.time %}{{ site.time | date: "%Y%m%d" }}{% endcapture %}
+{% capture post.date %}{{ post.date | date: "%Y%m%d" }}{% endcapture %}
+{% if post.date > site.time %}
+    <h2>Upcoming events</h2>
+     {% else %}
+     <h2>Past events</h2>
+  {% endif %}
+<!-- 
    {% if %}
     {{ site.time | date: "%Y%m%d" }}>{{ post.date| date: "%Y%m%d" }}
     <h2>Past events</h2>
@@ -41,7 +50,7 @@ title: Events
        <h2>Upcoming events</h2> %}
     {% endif %}
 
-
+ -->
 
     <li><a href="{{ post.url }}">{{ post.title }}</a></li><br>  
 
