@@ -4,107 +4,42 @@ title: Events
 ---
   
 
-<!-- {% for post in site.posts %}
-{{ site.time | date: "%m-%d-%Y" }}>{{ post.date | date: "%m-%d-%Y" }}
-<h2>Past events</h2>
-<li><a href="{{ post.url }}">{{ post.title }}</a></li><br>
-{% endfor %}
-{% for post in site.posts %}
-{{ site.time | date: "%m-%d-%Y" }}<={{ post.date | date: "%m-%d-%Y" }}
-<h2>Upcoming events events</h2>
-<li><a href="{{ post.url }}">{{ post.title }}</a></li><br>
-{% endfor %}
- -->
-
-
-
-{% for post in site.posts  %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
-
-    <!-- Sort by past and upcoming events -->
-
 {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
 {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
-{% if site_size > post_size  %}
 
 <article class="grid_5">
    <div class="post">
      <h2 id="Past-events">Past events</h2>
 
-       {% else %}
+{% for post in site.posts  %}
 
-<article class="grid_5">
-   <div class="widget">
-     <h2 id="Upcoming-events">Upcoming events</h2>
-     
-     {% endif %}
-
+{% if site_size > post_size  %}
 <ul><li> <a href="{{ post.url }}">{{ post.title }}</a> <br>
 <span>{{ post.date | date_to_string }}</span><br>
             {{ post.excerpt }}
 <a href="{{ post.url }}">...Read more </li><br></ul>
 
-
-
-<!-- {% if forloop.first %}
-    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-  
-    <ul>
-    {% endif %}
-  
-
- <li><a href="{{ post.url }}">{{ post.title }}</a>
-<span>{{ post.date | date_to_string }}</span></li><br>   
-
-    {% if forloop.last %}
-    </ul>
-    {% else %}
-        {% if this_year != next_year %}
-        </ul>
-        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-        
-        <ul>
-        {% else %}    
-            {% if this_month != next_month %}
-            </ul>
-            
-            <ul>
-            {% endif %}
-        {% endif %}
-    {% endif %} -->
-{% endfor %}
-</div>
-</article>
-<!-- 
-
-<article class="grid_6">
-   <div class="post">
-        <h2>Past events</h2>
-      <ul>
-    {% for post in site.categories[past events] %}
-      <li> <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-{{ post.date | date_to_string }}<br>
-{{ post.excerpt }}<a href="{{ post.url }}">...Read more</a><br></li><br>
-    {% endfor %}
-  </ul>
-    </div>
-  </article> -->
-
-<!-- 
-  <article class="grid_4">
-  <div class="widget">
-      <h2>Upcoming events</h2>
-       <ul>
-    {% for post in site.categories[upcoming events] %}
-      <li> <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-{{ post.date | date_to_string }}<br>
-{{ post.excerpt }}<a href="{{ post.url }}">...Read more</a><br></li><br>
-    {% endfor %}
-  </ul>
-    </div>
   </article>
-</p> -->
+</div>
 
+{% endif %}
+{% endfor %}
+
+<article class="grid_5">
+   <div class="post">
+     <h2 id="Past-events">Past events</h2>
+
+{% for post in site.posts  %}
+
+{% if site_size < post_size  %}
+<ul><li> <a href="{{ post.url }}">{{ post.title }}</a> <br>
+<span>{{ post.date | date_to_string }}</span><br>
+            {{ post.excerpt }}
+<a href="{{ post.url }}">...Read more </li><br></ul>
+
+  </article>
+</div>
+
+{% endif %}
+{% endfor %}
+  
