@@ -16,6 +16,9 @@ $( document ).ready(function() {
 if (location.pathname =="/"){ 
 ("/").addClass('current');
 
+} else if(location.pathname =="lidewey.github.io"){
+	("lidewey.github.io").addClass('current');
+
 }else{
 
   	$("a[href*='" + location.pathname + "']").addClass('current');
