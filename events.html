@@ -33,7 +33,7 @@ title: Events
     {% endif %}
 
    {% if post in site.posts  %}
-    {{ post.date| date: "%Y%m%d" }}=>{{ site.date| date: "%Y%m%d" }}
+    {{ site.date| date: "%Y%m%d" }}=>{{ post.date| date: "%Y%m%d" }}
     <h2>Past events</h2>
     {% else %}
        <h2>Upcoming events</h2> %}
