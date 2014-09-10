@@ -28,24 +28,29 @@ the Broyden algorithm. <br><br>
 <article class="grid_4">
   <div class="widget">
 <a href="http://lidewey.github.io/events.html" class="button large">Upcoming events</a><br><br>
-       <ul>
-    {% for post in site.categories[upcoming events] %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-    </div>
-  </article>
+  {% for post in site.posts  %}
+  {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
+  {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
 
- <br><br><br><p>
+  {% if site_size <= post_size  %}
 
-  <article class="grid_4">
-  <div class="widget">
-    <a href="http://lidewey.github.io/events.html" class="button large">Past events</a><br><br>
-  <ul>
-    {% for post in site.categories[past events] %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-    </div>
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+
+  {% endif %}
+  {% endfor %}
+
+<a href="http://lidewey.github.io/events.html" class="button large">Upcoming events</a><br><br>
+
+  {% for post in site.posts  %}
+  {% capture site_size %}{{ site.time | date: %Y%B%d }}{% endcapture %}
+  {% capture post_size %}{{ post.date | date: %Y%B%d }}{% endcapture %}
+
+  {% if site_size > post_size  %}
+
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+
+  {% endif %}
+  {% endfor %}
+
   </article>
-</p>
+</div>
