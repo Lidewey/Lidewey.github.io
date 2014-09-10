@@ -143,13 +143,13 @@ strike {
 	border: 1px solid #e19c9c;
 }
 a {
-	color: #80909B;  
+	color: #73818b;  
 	outline: none;
 	text-decoration: none;
 	cursor: pointer;
 }
 a:hover {
-	color: #e35845;
+	color: #e8796a;
 	text-decoration: none;
 }
 a.arrowlink {
